@@ -14,9 +14,10 @@ const QuickPicks = () => {
   }, []);
 
   return (
+    <>
     <section className="card_section">
       <div className="card_wrapper">
-        <a href="https://example.com/about" target="_blank" rel="noopener noreferrer" className="card">
+        <a href="/about" className="card">
           <div className="card_pill">
             <button className="pill">
               Coming soon <i data-feather="loader"></i>
@@ -26,7 +27,7 @@ const QuickPicks = () => {
             <p>About <span role="img" aria-label="information"> 📜 </span></p>
           </div>
         </a>
-        <a href="https://example.com/books-courses" target="_blank" rel="noopener noreferrer" className="card">
+        <a href="/books" className="card">
           <div className="card_pill">
             <button className="pill">
               Coming soon <i data-feather="loader"></i>
@@ -36,7 +37,7 @@ const QuickPicks = () => {
             <p>Books <span role="img" aria-label="books">📚</span></p>
           </div>
         </a>
-        <a href="https://example.com/portfolio" target="_blank" rel="noopener noreferrer" className="card">
+        <a href="/portfolio" className="card">
           <div className="card_pill">
             <button className="pill">
               Coming soon <i data-feather="loader"></i>
@@ -46,7 +47,7 @@ const QuickPicks = () => {
             <p>Works <span role="img" aria-label="portfolio"> 💼 </span></p>
           </div>
         </a>
-        <a href="https://example.com/blogs" target="_blank" rel="noopener noreferrer" className="card">
+        <a href="/blogs" className="card">
           <div className="card_pill">
             <button className="pill">
               Coming soon <i data-feather="loader"></i>
@@ -58,6 +59,7 @@ const QuickPicks = () => {
         </a>
       </div>
     </section>
+    </>
   );
 };
 
