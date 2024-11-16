@@ -14,11 +14,17 @@
     cursor: pointer;
 }
 
+.navbar-logo {
+    width: 170px;
+    height: auto;
+  }
+  
+
 .nav-connect {
     padding: 15px 30px;
     border: none;
     border-radius: 8px;
-    background: linear-gradient(267deg, #B923E1 0.36%, #5e89ed 106.6%);
+    background: var(--accent_colour);
     color: white;
     font-size: 18px;
     cursor: pointer;

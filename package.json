@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "feather-icons": "^4.29.2",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

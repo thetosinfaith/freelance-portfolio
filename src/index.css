@@ -9,3 +9,12 @@ body{
     color: #161513;
     font-family: "Outfit", sans-serif;
 }
+
+:root {
+  --accent_colour: #5e89ed;
+  --brand_black: #1a1a1a;
+  --brand_white: #fefefe;
+  background-image: url(./images/Light_background.svg);
+  --card_black: #1a1a1a;
+  --card_stroke: #ffffff;
+}
