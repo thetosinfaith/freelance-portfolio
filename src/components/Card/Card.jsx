@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import feather from 'feather-icons';  
-import './card.css';
+import './Card.css';
 
 const Card = ({ title, to, emoji, pillText }) => {  
   useEffect(() => {
