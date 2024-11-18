@@ -5,6 +5,11 @@
     margin: 20px 170px;
 }
 
+.navbar-logo {
+    width: 170px;
+    height: auto;
+  }
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -13,12 +18,6 @@
     font-size: 18px;
     cursor: pointer;
 }
-
-.navbar-logo {
-    width: 170px;
-    height: auto;
-  }
-  
 
 .nav-connect {
     padding: 15px 30px;
@@ -34,6 +33,23 @@
 
 .nav-connect:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 20px 50px;
+    }
+
+    .nav-menu {
+        gap: 35px;
+        margin-top: 20px;
+    }
+
+    .nav-connect {
+        margin-top: 20px;
+        padding: 12px 25px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {

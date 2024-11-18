@@ -1,0 +1,193 @@
+footer {
+    background-color: var(--accent_colour);
+    margin-top: 12rem;
+  }
+  .footer_content h3,
+  .footer_links a {
+    color: #fefefe;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .footer_content h3 {
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 160%;
+    margin: 0;
+  }
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 6rem 0rem;
+    gap: 4rem;
+    margin: 0 auto;
+  }
+  .footer_links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    column-gap: 4rem;
+    row-gap: 5rem;
+  }
+  
+  .footer_links a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 24px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-out;
+  }
+  .footer_links a .feather {
+    width: 32px;
+    height: 32px;
+    stroke-width: 1.5;
+  }
+  
+  .footer_links a .feather:hover {
+    width: 32px;
+    height: 32px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .footer_links a:hover {
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    color: #fefefe;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 400px) {
+
+    .footer_content h3 {
+      font-size: 3.2rem;
+      font-weight: 500;
+      letter-spacing: -0.06em;
+      line-height: 120%;
+    }
+    .footer_content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+      padding: 4rem 1rem;
+      gap: 4rem;
+    }
+  
+    .footer_links a {
+      font-size: 1.3rem;
+      align-items: center;
+      justify-content: space-between;
+      color: #fefefe;
+    }
+    .footer_links {
+      width: 100%;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 2.5rem;
+    }
+    .footer_links a .feather {
+      width: 24px;
+      height: 24px;
+      stroke-width: 1.5;
+    }
+    footer {
+      margin-top: 8rem;
+    }
+  }
+
+  @media screen and (min-width: 401px) and (max-width: 480px) {
+
+    .footer_content h3 {
+      font-size: 3.5rem;
+      font-weight: 500;
+      letter-spacing: -0.06em;
+      line-height: 144%;
+    }
+    .footer_content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+      padding: 4rem 0rem;
+      gap: 4rem;
+    }
+  
+    .footer_links a {
+      color: #fefefe;
+      font-size: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer_links {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 3.2rem;
+    }
+    footer {
+      margin-top: 8rem;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 600px) {
+
+    .footer_content h3 {
+      font-size: 3.5rem;
+      font-weight: 500;
+      letter-spacing: -0.06em;
+      line-height: 160%;
+    }
+    .footer_content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+      padding: 4rem 1rem;
+      gap: 4rem;
+    }
+    .footer_links a {
+      color: #fefefe;
+      font-size: 1.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer_links {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 3.2rem;
+    }
+    footer {
+      margin-top: 8rem;
+    }
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 767px) {
+ 
+    .footer_links {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .footer_links a {
+      font-size: 1.8rem;
+      color: #fefefe;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    
+    .footer_links {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .footer_links a {
+      color: #fefefe;
+    }
+  }
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .footer_links {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
