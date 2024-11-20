@@ -1,5 +1,6 @@
 .portfolio {
   display: flex;
+  flex-direction: column; 
   height: 100vh;
   overflow: hidden;
 }
@@ -21,16 +22,20 @@
 }
 
 .portfolio-right {
-  background-image: url('../../assets/pic2.jpg');
+  background-image: url('../../assets/pic3.jpg');
 }
 
 .portfolio-content {
   position: absolute;
   text-align: center;
+  padding: 20px; 
 }
 
 .portfolio-content h2 {
   font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: bold;
   margin-bottom: 10px;
 }
 
@@ -39,4 +44,36 @@
   display: block;
   margin-top: 10px;
   cursor: pointer;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .portfolio {
+    flex-direction: row; 
+  }
+
+  .portfolio-content h2 {
+    font-size: 2rem; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-content h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-box {
+    flex: 1 0 50%; 
+    height: 50vh; 
+  }
+
+  .portfolio-content h2 {
+    font-size: 1.8rem; 
+  }
+
+  .arrow-icon {
+    font-size: 1.5rem; 
+  }
 }
