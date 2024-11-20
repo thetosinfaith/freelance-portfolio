@@ -1,0 +1,31 @@
+.project_card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project_card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project_link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #690896; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project_link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,42 @@
+.portfolio {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.portfolio-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.portfolio-left {
+  background-image: url('../../assets/pic1.jpg');
+}
+
+.portfolio-right {
+  background-image: url('../../assets/pic2.jpg');
+}
+
+.portfolio-content {
+  position: absolute;
+  text-align: center;
+}
+
+.portfolio-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.arrow-icon {
+  font-size: 2rem;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}

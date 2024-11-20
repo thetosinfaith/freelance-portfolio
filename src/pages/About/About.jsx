@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.css';
-import logo from '../../assets/team.jpg'; 
+import logo from '../../assets/pic2.jpg'; 
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 const About = () => {
   return (
@@ -30,9 +31,11 @@ const About = () => {
           </div>
         </div>
       </div>
-      <footer className="footer">
+      <Footer/>
+
+      {/* <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </>
   );
 };

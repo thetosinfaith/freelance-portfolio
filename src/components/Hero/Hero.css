@@ -55,13 +55,13 @@
     margin: 15px 0;
     line-height: 2.0;
     font-weight: normal;
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .highlight {
     color: var(--accent_colour);
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .rest {
@@ -130,7 +130,7 @@
 
     .main_head {
         margin: 15px 0;
-        line-height: 2.0;
+        /* line-height: 1.5; */
     }
 
     .highlight {
@@ -142,6 +142,7 @@
         font-size: 22px;
         margin-left: 8px;
     }
+
 
     .social-icons {
         display: flex;

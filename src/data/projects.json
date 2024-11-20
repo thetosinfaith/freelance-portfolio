@@ -1,0 +1,50 @@
+[
+  {
+      "title": "KindRaise",
+      "description": "KindRaise helps non-profits raise money easily, was developed during a hackathon with a team of five.",
+      "image": "/kindraise.jpg",
+      "link": "http://kindraise.vercel.app",
+      "stack": ["React", "Redux", "Node.js", "MongoDB"],
+      "github": "https://github.com/username/kindraise"
+  },
+  {
+      "title": "CliqueShoppa",
+      "description": "CliqueShoppa is an online reselling platform that enables anyone to start a business from home with zero capital.",
+      "image": "/cliqueshoppa.png",
+      "link": "https://cliqueshoppaweb.vercel.app/",
+      "stack": ["React", "Node.js", "MongoDB"],
+      "github": "https://github.com/username/cliqueshoppa"
+  },
+  {
+    "title": "Micdee",
+    "description": "Micdee is a real estate company in Sub-Saharan Africa. House agents can put up listings of houses for sale, lease, or rent.",
+    "image": "/micdee.png",
+    "link": "https://micdee-real-estate.vercel.app/",
+    "stack": ["React", "Redux", "Firebase"],
+    "github": "https://github.com/username/micdee-estates"
+  },
+  {
+      "title": "Shop.Rhai",
+      "description": "Shop.Rhai is a fashion brand for modern women, they sell Luxury Urban Outfits! . All made in Aba, Nigeria.",
+      "image": "/rhai.png",
+      "link": "https://myblogplatform.com",
+      "stack": ["Next.js", "CSS Modules"],
+      "github": "https://github.com/username/shoprhai"
+  },
+  {
+    "title": "Purple Letter",
+    "description": "I wrote a love letter to my longtime crush who lives abroad, but unfortunately, I never received a reply.",
+    "image": "/tade.png",
+    "link": "https://letter-to-my-crush.vercel.app/",
+    "stack": ["React", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/username/quicknotes"
+  },
+  {
+      "title": "Todo-list",
+      "description": "I saw a really nice to-do list design on Dribbble and recreated it with React. Now I use it to plan my tasks for the day.",
+      "image": "/todolist.png",
+      "link": "https://todo-list-thetosinfaith.vercel.app/",
+      "stack": ["React", "Styled Components"],
+      "github": "https://github.com/username/todo-list"
+  }
+]

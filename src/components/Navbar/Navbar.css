@@ -24,12 +24,18 @@
     border: none;
     border-radius: 8px;
     background: var(--accent_colour);
-    color: white;
     font-size: 18px;
     cursor: pointer;
     font-family: "Outfit", sans-serif;
     transition: 0.5s;
 }
+
+.nav-connect a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .nav-connect:hover {
     transform: scale(1.05);

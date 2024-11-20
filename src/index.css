@@ -11,10 +11,11 @@ body{
 }
 
 :root {
---accent_colour: #5e89ed;
+--accent_colour: #4831D4;
 --brand_black: #1a1a1a;
 --brand_white: #fefefe;
 background-image: url(./images/Light_background.svg);
 --card_black: #1a1a1a;
 --card_stroke: #ffffff;
+--othercolor: #CCF381;
 }

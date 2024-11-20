@@ -1,0 +1,21 @@
+.go-home-button-container {
+    display: flex;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.go-home-button {
+    padding: 8px 32px;
+    background-color: var(--accent_colour);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.go-home-button:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
