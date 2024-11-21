@@ -2,6 +2,7 @@
     margin: 0 auto;
     max-width: 1200px;
     padding: 30px 20px;
+    width: 100%; 
 }
 
 .designer-projects-title {

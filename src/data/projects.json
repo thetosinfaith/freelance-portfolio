@@ -25,7 +25,7 @@
   },
   {
       "title": "Shop.Rhai",
-      "description": "Shop.Rhai is a fashion brand for modern women, they sell Luxury Urban Outfits! . All made in Aba, Nigeria.",
+      "description": "Shop.Rhai is a fashion brand for modern women, they sell Luxury Urban Outfits! All made in Aba, Nigeria.",
       "image": "/rhai.png",
       "link": "https://myblogplatform.com",
       "stack": ["Next.js", "CSS Modules"],

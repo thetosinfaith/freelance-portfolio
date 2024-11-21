@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    padding: 10px 20px;
+    position: relative;
 }
 
 .navbar-logo {
@@ -13,11 +15,68 @@
 .nav-menu {
     display: flex;
     align-items: center;
-    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     gap: 60px;
     font-size: 18px;
     cursor: pointer;
 }
+
+.nav-menu li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+  }
+
+  .nav-menu li a:hover {
+    background-color: #f4f4f4;
+  }
+
+  .hamburger-icon {
+    display: none; 
+  }
+
+  .nav-connect .cta-button {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none; 
+    }
+  }
+
+  .hamburger-icon {
+    display: block; 
+  }
+
+  @media (max-width: 480px) {
+    .nav-menu {
+      display: none; 
+    }
+}
+
+.hamburger-icon {
+    display: block; 
+}
+
+
+.nav-menu.active {
+    display: block;  
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
 
 .nav-connect {
     padding: 15px 30px;
