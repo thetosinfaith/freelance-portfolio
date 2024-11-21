@@ -35,7 +35,7 @@
     "title": "Purple Letter",
     "description": "I wrote a love letter to my longtime crush who lives abroad, but unfortunately, I never received a reply.",
     "image": "/tade.png",
-    "link": "https://letter-to-my-crush.vercel.app/",
+    "link": "https://letter-to-m-crush.vercel.app/",
     "stack": ["React", "Node.js", "PostgreSQL"],
     "github": "https://github.com/username/quicknotes"
   },
