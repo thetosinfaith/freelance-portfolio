@@ -6,12 +6,12 @@
 body{
     height: 100vh;
     background-color: white;
-    color: #161513;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-family: "Outfit", sans-serif;
 }
 
 :root {
---accent_colour: #4831D4;
+--accent_colour: #732646;
 --brand_black: #1a1a1a;
 --brand_white: #fefefe;
 background-image: url(./images/Light_background.svg);

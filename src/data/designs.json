@@ -1,0 +1,43 @@
+[
+    {
+      "title": "AzuTravels",
+      "description": "An elegant gallery app showcasing digital art with a minimalist design that emphasizes visuals. The layout balances aesthetics with usability for a seamless browsing experience.",
+      "image": "/azutravels.jpg",
+      "link": "https://www.figma.com/design/4ZVyKwXLm8WA3nonVKMbD9/AzuTravels-Landing-Page?node-id=2265-112&t=C5slVr9H6WrCAIqZ-1",
+      "tools_used": ["Figma", "React", "CSS Modules"],
+      "category": "UI/UX Design"
+    },
+    {
+      "title": "ChopChop",
+      "description": "A colorful project management dashboard with a focus on vibrant, intuitive UI/UX. Designed to make task management visually appealing and straightforward.",
+      "image": "/chopchop.png",
+      "link": "https://www.figma.com/design/vlvqB4VoOZdvqw8cZzzIjJ/ChopChop?node-id=0-1&t=LKWBDo8HiIlnRf68-1",
+      "tools_used": ["Adobe XD", "React", "Tailwind CSS"],
+      "category": "Web Design"
+    },
+    {
+      "title": "Tixavo",
+      "description": "This is a mobile app called Memoirly. It allows users to create and manage their own personal diaries.",
+      "image": "/tixavo.png",
+      "link": "https://www.behance.net/gallery/194497279/Tixavo-Buy-Scan-Access",
+      "tools_used": ["Sketch", "Vue.js", "Sass"],
+      "category": "Web Design"
+    },
+    {
+      "title": "Memoirly",
+      "description": "A sleek cloud storage app with an emphasis on ease of use and visual clarity. The design focuses on smooth navigation and a modern look with a responsive layout.",
+      "image": "/memoirly.png",
+      "link": "https://www.figma.com/design/d6Oes9prj6Eqpfe2ZLxZ6n/My-Portfolio---Diary-App?node-id=0-1&t=DEPXNHXvaZ9x9wzV-1",
+      "tools_used": ["Figma", "React", "Styled Components"],
+      "category": "App UI/UX Design"
+    },
+    {
+      "title": "CliqueShoppa",
+      "description": "A fitness tracking app with a user-friendly interface that motivates users to stay active. The design incorporates bold colors and sleek animations for a modern look.",
+      "image": "/cliqueshoppa.JPG",
+      "link": "https://www.behance.net/gallery/191453759/CliqueShoppa",
+      "tools_used": ["Adobe XD", "Flutter", "Dart"],
+      "category": "Mobile UI/UX Design"
+    }
+  ]
+  

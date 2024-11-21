@@ -18,11 +18,11 @@
 }
 
 .portfolio-left {
-  background-image: url('../../assets/pic1.jpg');
+  background-color: var(--accent_colour);
 }
 
 .portfolio-right {
-  background-image: url('../../assets/pic3.jpg');
+  background-image: url('../../assets/pic9.jpg');
 }
 
 .portfolio-content {

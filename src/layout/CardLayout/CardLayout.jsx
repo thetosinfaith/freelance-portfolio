@@ -12,7 +12,7 @@ const CardLayout = () => {
           pillText="New"
         />
         <Card 
-          title="Portfolio"
+          title="Projects"
           to="/portfolio" 
           emoji="📂"
           pillText="Featured"
