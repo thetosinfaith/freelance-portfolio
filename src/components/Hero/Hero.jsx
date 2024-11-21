@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import HeroImage from '../../assets/bit.png'
+import HeroImage from '../../assets/idee.jpg'
 
 const Hero = () => {
   return (
@@ -11,12 +11,12 @@ const Hero = () => {
           alt="Profile Placeholder" 
         />
         <div className="content">
-          <h6 className="greeting"> Hi, My Name is</h6>
+          <h6 className="greeting"> Hi, My Name is Tosin</h6>
           <h1 className="main_head">
-            <span className="highlight">Oluwatosin Faith O.</span> <br />
+            <span className="highlight">I Build User Interfaces</span> <br />
           </h1>
           <h6 className="subtitle">
-          I build frontend applications. Sometimes I design, and very occasionally I work on the backend. I always make sure the apps I deliver are fast, easy to use, and responsive.
+          I build frontend applications. Sometimes I design, and very rarely I work on the backend. I always make sure the apps I deliver are fast, easy to use, and responsive.
           </h6>
           <div className="social-icons">
             <a href="https://wa.me/+2348123539192" target="_blank" rel="noopener noreferrer">

@@ -29,6 +29,7 @@
   position: absolute;
   text-align: center;
   padding: 20px; 
+  font-size: 1.2rem;
 }
 
 .portfolio-content h2 {
@@ -46,7 +47,6 @@
   cursor: pointer;
 }
 
-/* Responsive Design */
 @media (min-width: 768px) {
   .portfolio {
     flex-direction: row; 

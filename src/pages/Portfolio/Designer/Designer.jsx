@@ -24,9 +24,14 @@ const Designer = () => {
     <>
       <Navbar />
 
-      <section className="designer-projects-section">
-        <h1 className="designer-projects-title">Some Case Studies</h1>
+      <h1 className="designer-projects-title">./Designs.</h1>
+      <div className="designer-content">
+            <p>Selected designs I've taken on in the past.</p>
+            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
+          </div> 
+      
 
+      <section className="designer-projects-section">
         {isLoading ? (
           <div className="designer-spinner">Loading...</div>
         ) : error ? (
@@ -76,6 +81,10 @@ const Designer = () => {
           </div>
         )}
       </section>
+
+       <footer className="footer">
+        <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
+      </footer>
     </>
   );
 };

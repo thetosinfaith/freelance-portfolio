@@ -5,12 +5,18 @@
 }
 
 .designer-projects-title {
+    margin-top: 8%;
     text-align: center;
     font-size: 2rem;
     color: black;
     font-weight: bold;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin-bottom: 1%;
+}
+
+.designer-content {
+    text-align: center;
+    padding: 20px; 
+    font-size: 20px;
 }
 
 .designer-spinner {
@@ -141,6 +147,17 @@
         grid-template-columns: repeat(1, 1fr); 
         gap: 50px;
     }
+
+    .designer-projects-title {
+        font-size: 1.75rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .designer-content {
+        font-size: 16px;
+        padding: 15px;
+    }    
 }
 
 @media (max-width: 480px) {
@@ -150,8 +167,15 @@
     }
 
     .designer-projects-title {
-        font-size: 1.5rem; 
-        margin-bottom: 50px;
-        margin-top: 30px;
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
+
+    .designer-content {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    
 }

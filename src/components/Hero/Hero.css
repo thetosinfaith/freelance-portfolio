@@ -45,8 +45,7 @@
 }
 
 .main_head {
-    font-size: 70px;
-    line-height: 1.4;
+    font-size: 80px;
     margin: 20px 0;
 }
 
@@ -131,6 +130,7 @@
 
     .main_head {
         margin: 15px 0;
+        max-width: 400px;
         /* line-height: 1.5; */
     }
 
@@ -155,7 +155,7 @@
 @media (max-width: 768px) {
     .hero img {
         width: 100%; 
-        max-width: 350px;
+        max-width: 450px;
         height: auto;
         object-position: center; 
     }

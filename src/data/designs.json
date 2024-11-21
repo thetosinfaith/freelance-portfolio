@@ -1,7 +1,7 @@
 [
     {
       "title": "AzuTravels",
-      "description": "An elegant gallery app showcasing digital art with a minimalist design that emphasizes visuals. The layout balances aesthetics with usability for a seamless browsing experience.",
+      "description": "Azutravels is a travel agency that helps you plan any kind of trip, short weekend holiday, or a vacation.",
       "image": "/azutravels.jpg",
       "link": "https://www.figma.com/design/4ZVyKwXLm8WA3nonVKMbD9/AzuTravels-Landing-Page?node-id=2265-112&t=C5slVr9H6WrCAIqZ-1",
       "tools_used": ["Figma", "React", "CSS Modules"],
@@ -9,7 +9,7 @@
     },
     {
       "title": "ChopChop",
-      "description": "A colorful project management dashboard with a focus on vibrant, intuitive UI/UX. Designed to make task management visually appealing and straightforward.",
+      "description": "ChopChop is a food ordering app that makes it quick and easy to browse menus, place orders, and get your food delivered straight to your door.",
       "image": "/chopchop.png",
       "link": "https://www.figma.com/design/vlvqB4VoOZdvqw8cZzzIjJ/ChopChop?node-id=0-1&t=LKWBDo8HiIlnRf68-1",
       "tools_used": ["Adobe XD", "React", "Tailwind CSS"],

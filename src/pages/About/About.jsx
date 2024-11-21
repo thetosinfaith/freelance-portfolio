@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="about-text">
             <h1>Hello, I'm Tosin</h1>
-            <p>My name is Tosin Faith (I’m fondly known as Tee), and I’m currently a Frontend Engineer based in Lagos, Nigeria.</p>
+            <p>My name is Tosin Faith (I’m fondly known as Tee), and I’m currently a Frontend Developer based in Lagos, Nigeria.</p>
             
             <p>I got into programming in 2024 when I was trying to build a website for my then-business.</p>
 

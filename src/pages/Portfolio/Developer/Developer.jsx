@@ -23,9 +23,13 @@ const Developer = () => {
     <>
       <Navbar />
 
+      <h1 className="developer-projects-title">./Websites.</h1>
+      <div className="developer-content">
+            <p>Some Websites I’ve Built</p>
+            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
+          </div> 
+    
       <section className="projects-section">
-        <h1 className="projects-title">Some Websites I’ve Built</h1>
-
         {isLoading ? (
           <div className="spinner">Loading...</div>
         ) : error ? (
@@ -75,6 +79,9 @@ const Developer = () => {
           </div>
         )}
       </section>
+      <footer className="footer">
+        <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
+      </footer>
     </>
   );
 };

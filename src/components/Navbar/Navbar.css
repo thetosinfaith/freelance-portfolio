@@ -21,7 +21,6 @@
 
 .nav-connect {
     padding: 15px 30px;
-    border: none;
     border-radius: 8px;
     background: var(--accent_colour);
     font-size: 18px;
@@ -35,11 +34,10 @@
     color: white;
 }
 
-
-
 .nav-connect:hover {
     transform: scale(1.05);
 }
+
 
 @media (max-width: 1024px) {
     .navbar {
