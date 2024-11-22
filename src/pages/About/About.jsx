@@ -3,32 +3,70 @@ import './About.css';
 import logo from '../../assets/pic2.jpg'; 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import CodeIcon from '../../assets/images/code-icon.png'
+import Education from '../../assets/images/edu-icon.png'
+import Projects from '../../assets/images/project-icon.png'
+import Vscode from '../../assets/images/vscode.png'
+import firebase from '../../assets/images/firebase.png'
+import react from '../../assets/images/react.png'
+import figma from '../../assets/images/figma.png'
+import git from '../../assets/images/git.png'
+import circularText from '../../assets/images/circular-text.png'
+import devIcon from '../../assets/images/dev-icon.png'
+
+
+
 
 const About = () => {
   return (
     <>
       <Navbar />
+      <div className='upper-about'>
+      <p>Introduction</p>
+      <h1>About Me</h1>
+      </div>
+
       <div className="about-container">
         <div className="about-content">
           <div className="about-image">
             <img src={logo} alt="Logo" />
+            <div className='circle'>
+              <div className='rotating'>
+              <img src={circularText} alt="" />
+              </div>
+              <img src={devIcon} alt="" className="dev-icon"/>
+            </div>
           </div>
           <div className="about-text">
             <h1>Hello, I'm Tosin</h1>
-            <p>My name is Tosin Faith (I’m fondly known as Tee), and I’m currently a Frontend Developer based in Lagos, Nigeria.</p>
-            
-            <p>I got into programming in 2024 when I was trying to build a website for my then-business.</p>
+            <p>I build frontend applications. Sometimes I design, and very occasionally I work on the backend. I always make sure the apps I deliver are fast, easy to use, and responsive.</p>
 
-            <p>In September 2024, I completed The Curve Africa by Kora Tech Program, where I received a certification in Frontend Development. There, I picked up web development skills and learned how to work in a team. I later became a mentor for the program after completing it.</p>
-
-            <p>In September 2024, I led a team to build our first product for a Hackathon, called "Kindraise" — a fundraising webapp that allows you to raise money for your needs.</p>
-
-            <p>We came in first place.</p>
-
-            <p>After graduating from the bootcamp, I continued to lead development at Kindraise and still work with the frontend team. Our aim is to make Kindraise the go-to fundraising app in Africa by 2030.</p>
-                                                  
-            <p>Someday, I plan to create content around building tech products, share my journey of becoming a software engineer, and help others grow in tech through my social media channels.</p>
-          </div>
+            <div className='more-info'>
+              <div className='languages'>
+                <img src={CodeIcon} alt="" />
+                <h4>Languages</h4>
+                <h4>HTML, CSS, Javascript, React</h4>
+              </div>
+              <div className='education'>
+                <img src={Education} alt="" />
+                <h4>Education</h4>
+                <h4>(Frontend) Certification</h4>
+              </div>
+              <div className='projects'>
+                <img src={Projects} alt="" />
+                <h4>Projects</h4>
+                <h4>Built more than 5 projects</h4>
+              </div>
+            </div>
+            <div className='tools'>
+              <p>Tools I use</p>
+              <img src={Vscode} alt="" />
+              <img src={firebase} alt="" />
+              <img src={react} alt="" />
+              <img src={figma} alt="" />
+              <img src={git} alt="" />
+            </div>
+            </div>
         </div>
       </div>
       <Footer/>
