@@ -15,7 +15,7 @@ const Blog = () => {
 
     <div className="blog-embed-container">
     <iframe
-      src="https://cowrywise.com/blog/" // Replace with your blog's URL
+      src="https://cowrywise.com/blog/" 
       title="Blog"
       className="blog-embed-iframe"
     ></iframe>
