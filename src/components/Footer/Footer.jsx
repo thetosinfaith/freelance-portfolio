@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer_content">
-        <h3>Hey, do stay in touch ✌🏽</h3>
+        <h3>Find Me on Social Media ✌🏽</h3>
         <div className="footer_links">
           <a href="https://www.linkedin.com/in/thetosinfaith/" target="_blank" rel="noopener noreferrer">
             LinkedIn <i data-feather="linkedin"></i>
@@ -12,10 +12,6 @@ const Footer = () => {
 
           <a href="https://twitter.com/thetosinfaith" target="_blank" rel="noopener noreferrer">
             Twitter <i data-feather="twitter"></i>
-          </a>
-
-          <a href="https://www.polywork.com/thetosinfaith" target="_blank" rel="noopener noreferrer">
-            Polywork <i data-feather="globe"></i>
           </a>
 
           <a href="https://github.com/thetosinfaith" target="_blank" rel="noopener noreferrer">

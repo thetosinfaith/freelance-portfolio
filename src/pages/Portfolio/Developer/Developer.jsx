@@ -25,7 +25,7 @@ const Developer = () => {
 
       <h1 className="developer-projects-title">./Websites.</h1>
       <div className="developer-content">
-            <p>Some Websites I’ve Built</p>
+            <p>Projects I’m Proud Of</p>
             <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
           </div> 
     

@@ -13,9 +13,8 @@ const Portfolio = () => {
       <div className="portfolio">
         <div className="portfolio-box portfolio-right">
           <div className="portfolio-content">
-            <h2>I build
-            stuff</h2>
-            <p>See My Works</p>
+            <h2>I build websites</h2>
+            <p>See What I've Built</p>
             
             <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
           </div>
@@ -25,7 +24,7 @@ const Portfolio = () => {
           <div className="portfolio-content">
             <h2>I design,
             sometimes</h2>
-            <p>Check My Designs
+            <p>I might not be the typical designer spending hours on Illustrator, but I design.
             </p>
             <span className="arrow-icon" onClick={() => navigate("/portfolio/designer")}>→</span>
           </div>

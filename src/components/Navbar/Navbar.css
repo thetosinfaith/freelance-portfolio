@@ -1,149 +1,249 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 170px;
-    padding: 10px 20px;
-    position: relative;
+header {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar-logo {
-    width: 170px;
-    height: auto;
-  }
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 60px;
-    font-size: 18px;
-    cursor: pointer;
+.navbar-container {
+  height: 50%;
+  background-color: var(--background-color);
+  width: 80%;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.nav-menu li a {
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    color: black;
-  }
-
-  .nav-menu li a:hover {
-    background-color: #f4f4f4;
-  }
-
-  .hamburger-icon {
-    display: none; 
-  }
-
-  .nav-connect .cta-button {
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  @media (max-width: 768px) {
-    .nav-menu {
-      display: none; 
-    }
-  }
-
-  .hamburger-icon {
-    display: block; 
-  }
-
-  @media (max-width: 480px) {
-    .nav-menu {
-      display: none; 
-    }
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
 }
 
-.hamburger-icon {
-    display: block; 
+.navbar-menu-item {
+  cursor: pointer;
+  font-size: 18px;
 }
 
+.navbar-menu-item:hover {
+  color: var(--accent-colour);
+}
 
-.nav-menu.active {
-    display: block;  
-    position: absolute;
-    top: 50px;
-    right: 0;
-    background-color: #fff;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-  }
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+  font-size: 18px;
+}
 
+.navbar-link {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+  color: var(--accent-colour);
+}
 
 .nav-connect {
-    padding: 15px 30px;
-    border-radius: 8px;
-    background: var(--accent_colour);
-    font-size: 18px;
-    cursor: pointer;
-    font-family: "Outfit", sans-serif;
-    transition: 0.5s;
+  margin-top: auto;
+  padding: 15px 30px;
+  background-color: #4831D4;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 17px;
+  transition: 0.5s;
+  font-size: 18px;
+  text-decoration: none;
 }
 
-.nav-connect a{
-    text-decoration: none;
-    color: white;
+.nav-connect a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-connect:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
+.navbar-logo {
+  width: 160px;
+  cursor: pointer;
+  margin-left: 20px;
+}
 
-@media (max-width: 1024px) {
-    .navbar {
-        margin: 20px 50px;
-    }
+.navbar-logo img {
+  height: 100%;
+  width: 100%;
+}
 
-    .nav-menu {
-        gap: 35px;
-        margin-top: 20px;
-    }
+.navbar-mobile-toggle {
+  display: none;
+}
 
-    .nav-connect {
-        margin-top: 20px;
-        padding: 12px 25px;
-        font-size: 16px;
-    }
+.navbar-search {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.navbar-service-link {
+  cursor: pointer;
+}
+
+.navbar-service-link:hover {
+  color: var(--accent-color);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .navbar-service-link {
+    display: none;
+  }
+
+  .navbar-menu-item {
+    display: none;
+  }
+
+  .navbar-mobile-toggle {
+    display: block;
+    z-index: 9999;
+  }
+}
+
+.navbar-mobile-menu {
+  height: 100vh;
+  width: 70%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-mobile-menu.show {
+  display: block;
+}
+
+.navbar-mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 30%;
+  min-width: 200px;
+  padding: 30px;
+  border-radius: 3px 0;
+}
+
+.navbar-mobile-menu nav {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.navbar-mobile-menu a {
+  color: var(--link-text-color);
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+.navbar-mobile-menu a:hover {
+  color: var(--accent-secondary-color);
+  background-color: var(--hover-background-color);
+  border-radius: 2px;
+}
+
+.cta-button-mobile {
+  background-color: #4831D4;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.cta-button-mobile a {
+  color: white !important;
+}
+
+.cta-button-mobile:hover {
+  transform: scale(1.05);
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-mobile-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  background-color: #FCF7F9;
+  right: -100%;
+  transition: right 0.3s ease;
+}
+
+.navbar-mobile-menu-wrapper.open {
+  right: 0;
+}
+
+.navbar-mobile-menu a {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.navbar-mobile-menu a:hover {
+  background-color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        margin: 20px;
-    }
+  .navbar-links,
+  .navbar-menu {
+    display: none;
+  }
 
-    .nav-menu {
-        flex-direction: column;
-        gap: 20px;
-        font-size: 16px;
-    }
-
-    .nav-connect {
-        padding: 15px 30px;
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar {
-        margin: 10px;
-    }
-
-    .nav-menu {
-        font-size: 14px;
-    }
-
-    .nav-connect {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
+  .navbar-mobile-toggle {
+    display: block;
+  }
 }
