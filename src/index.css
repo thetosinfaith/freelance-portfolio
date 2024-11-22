@@ -12,7 +12,7 @@ body{
 }
 
 :root {
---accent_colour: #4831D4;
+--accent_colour: #5e89ed;
 --brand_black: #1a1a1a;
 --brand_white: #fefefe;
 background-image: url(./images/Light_background.svg);

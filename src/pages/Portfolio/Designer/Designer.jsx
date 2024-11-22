@@ -26,7 +26,7 @@ const Designer = () => {
 
       <h1 className="designer-projects-title">./Designs.</h1>
       <div className="designer-content">
-            <p>Designs Worth Seeing.</p>
+            <p>Products Worth Seeing.</p>
             <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
           </div> 
       

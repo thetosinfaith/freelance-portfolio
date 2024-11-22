@@ -9,7 +9,7 @@ const CardLayout = () => {
           title="About"
           to="/about" 
           emoji="📜"
-          pillText="New"
+          pillText="Start Here"
         />
         <Card 
           title="Work"
@@ -17,8 +17,14 @@ const CardLayout = () => {
           emoji="📂"
           pillText="Featured"
         />
+         <Card 
+          title="Work"
+          to="/portfolio" 
+          emoji="📂"
+          pillText="Featured"
+        />
         <Card 
-          title="Shelf"
+          title="Blog"
           to="/blog"  
           emoji="📝"
           pillText="Latest"

@@ -1,16 +1,18 @@
 import Navbar from '../../components/Navbar/Navbar'
 import Hero from '../../components/Hero/Hero'
-import Footer from '../../components/Footer/Footer'
+import MainFooter from '../../components/MainFooter/MainFooter'
 import { Outlet } from 'react-router-dom'
+import Contact from '../../components/Contact/Contact'
 
 const MainLayout = () => {
   return (
-    <div>
+       <>
       <Navbar />
       <Hero />
-      <Outlet />
-      <Footer />
-    </div>
+    <Outlet />
+    <Contact/>
+    <MainFooter />
+    </>
   )
 }
 

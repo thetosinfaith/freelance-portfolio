@@ -26,3 +26,7 @@ const Card = ({ title, to, emoji, pillText }) => {
 };
 
 export default Card;
+
+
+
+
