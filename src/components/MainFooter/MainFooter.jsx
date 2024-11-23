@@ -26,7 +26,7 @@ const MainFooter = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">Tosin Faith</p>
+        <p className="footer-bottom-left">© Tosin Faith 2024</p>
         <div className="footer-bottom-right">
           <p>Terms of Services</p>
           <p>Privacy Policy</p>

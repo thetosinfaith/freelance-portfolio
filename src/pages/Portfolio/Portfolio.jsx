@@ -13,9 +13,9 @@ const Portfolio = () => {
         <div className="portfolio-box portfolio-right">
           <div className="portfolio-content">
             <h2>I build websites</h2>
-            <p>I build JS apps using the best tools for the job, but React is my go-to framework.</p>
+            <p>I build webapps using the best tools for the job, but React is my go-to framework.</p>
             
-            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
+            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}> →</span>
           </div>
         </div>
 

@@ -9,12 +9,13 @@ const Contact = () => {
   return (
     <div className="contact">
         <div className="contact-title">
-            <h1>Get in touch</h1>
+            <h1>Send me a message!</h1>
         </div>
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Let's talk</h1>
-                <p>small text</p>
+                <p>Got a question or proposal, or just want
+                to say hello? Go ahead.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                     <img src={mail_icon} alt="" /> <p>thetosinfaith@gmail.com</p>

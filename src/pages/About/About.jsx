@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import logo from '../../assets/pic2.jpg'; 
+import logo from '../../assets/tosin.jpg'; 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CodeIcon from '../../assets/images/code-icon.png'
