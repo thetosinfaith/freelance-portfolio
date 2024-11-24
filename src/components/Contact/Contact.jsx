@@ -8,17 +8,20 @@ import call_icon from '../../assets/call_icon.svg'
 const Contact = () => {
   return (
     <div className="contact">
-        <div className="contact-title">
-            <h1>Send me a message!</h1>
-        </div>
+        {/* 
+            <div className="contact-title">
+                <h1>Send me a message!</h1>
+            </div> 
+            */}
+            
         <div className="contact-section">
             <div className="contact-left">
-                <h1>Let's talk</h1>
-                <p>Got a question or proposal, or just want
-                to say hello? Go ahead.</p>
+                <h1>Send a Message</h1>
+                <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. Message me.</p>
+                <div/>
                 <div className="contact-details">
                     <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>thetosinfaith@gmail.com</p>
+                    <img src={mail_icon} alt="" /> <p>hellotosinfaith@gmail.com</p>
                     </div>
                     <div className="contact-detail">
                     <img src={call_icon} alt="" /> <p>+234 8123 539192</p>
@@ -34,8 +37,8 @@ const Contact = () => {
                 <label htmlFor="">Your Email</label>
                 <input type="email" placeholder='Enter your email' name="email" />
                 <label htmlFor="">Write your message here</label>
-                <textarea name="message" rows='8' placeholder='Enter your message'></textarea>
-                <button type='submit' className='contact-submit'>Submit Now</button>
+                <textarea name="message" rows="8" placeholder="Hi Tosin, "></textarea>
+                <button type='submit' className='contact-submit'>Send Message</button>
             </form>
         </div>
     </div>

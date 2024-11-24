@@ -37,6 +37,8 @@ const About = () => {
           </div>
           <div className="about-text">
             <h1>Hello, I'm Tosin</h1>
+
+            <p>Well, if you are here, you know me. You know I don't do it at all unless it is done right.</p>
             <p>My name is Tosin Faith (I’m fondly known as Tee), and I’m currently a Frontend Dev based in Lagos, Nigeria.</p>
             <p>I got into programming in 2024 when I was trying to build a website for my then-business.</p>
             <p>In September 2024, I completed The Curve Africa by Kora Tech Program, where <b>I received a certification in Frontend Development</b>. There, I picked up web development skills and learned how to work in a team. I later became a mentor for the program after completing it.</p>
@@ -61,7 +63,7 @@ const About = () => {
               </div>
             </div>
             <div className='tools'>
-              <p>Tools I use</p>
+              <p>I use these, too often.</p>
               <img src={Vscode} alt="" />
               <img src={firebase} alt="" />
               <img src={react} alt="" />

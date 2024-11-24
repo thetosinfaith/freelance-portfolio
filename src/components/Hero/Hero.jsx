@@ -39,7 +39,7 @@ const Hero = () => {
             </a>
           </div>
           <a href="https://wa.me/+2348123539192" className="cta" target="_blank" rel="noopener noreferrer">
-            <button className="hero_button">Send Me a Message</button>
+            <button className="hero_button">Let’s chat</button>
           </a>
         </div>
       </div>

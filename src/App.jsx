@@ -24,7 +24,6 @@ const App = () => {
         <Route path="portfolio/developer" element={<Developer />} />
         <Route path="portfolio/designer" element={<Designer />} />
 
-
         <Route path="*" element={<div>Page not found</div>} />
       </Routes>
     </BrowserRouter>

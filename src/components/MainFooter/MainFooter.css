@@ -134,11 +134,13 @@
     }
 
     .footer-top-right {
-        flex-direction: column;
-        align-items: stretch;
+        display: flex;
+        align-items: center;
     }
 
     .footer-email-input {
+        display: flex;
+        align-items: center;
         margin-top: 5%;
         width: 100%;
         gap: 10px;
