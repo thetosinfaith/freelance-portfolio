@@ -1,7 +1,7 @@
 .portfolio {
   display: flex;
   flex-direction: column; 
-  height: 100vh; 
+  height: 80vh; 
   margin: 0; 
   padding: 0;
   overflow: hidden; 
@@ -65,8 +65,8 @@
 }
 
 .portfolio-right .arrow-icon {
-  border-color: var(--accent_colour);
-  color: var(--accent_colour);
+  border-color: black;
+  color: black;
 }
 
 .portfolio-left .arrow-icon {
@@ -110,7 +110,7 @@
 
 @media (max-width: 767px) {
   .portfolio {
-    height: 80vh; 
+    height: 79vh; 
     flex-direction: column; 
   }
 
