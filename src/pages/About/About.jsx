@@ -13,9 +13,7 @@ import figma from '../../assets/images/figma.png'
 import git from '../../assets/images/git.png'
 import circularText from '../../assets/images/circular-text.png'
 import devIcon from '../../assets/images/dev-icon.png'
-
-
-
+import Vercel from '../../assets/images/vercel.png'
 
 const About = () => {
   return (
@@ -39,8 +37,12 @@ const About = () => {
           </div>
           <div className="about-text">
             <h1>Hello, I'm Tosin</h1>
-            <p>I build frontend applications. Sometimes I design, and very occasionally I work on the backend. I always make sure the apps I deliver are fast, easy to use, and responsive.</p>
-
+            <p>My name is Tosin Faith (I’m fondly known as Tee), and I’m currently a Frontend Dev based in Lagos, Nigeria.</p>
+            <p>I got into programming in 2024 when I was trying to build a website for my then-business.</p>
+            <p>In September 2024, I completed The Curve Africa by Kora Tech Program, where <b>I received a certification in Frontend Development</b>. There, I picked up web development skills and learned how to work in a team. I later became a mentor for the program after completing it.</p>
+            <p>In September 2024, <b>I led a team</b> to build our first product for a Hackathon, called "Kindraise" — <b><i>a fundraising webapp that allows you to raise money for your needs.</i></b></p>
+            <p>We came in first place.</p>
+            <p>Someday, I plan to create content around building tech products, share my journey of becoming a software engineer, and help others grow in tech through my social media channels.</p>
             <div className='more-info'>
               <div className='languages'>
                 <img src={CodeIcon} alt="" />
@@ -65,6 +67,7 @@ const About = () => {
               <img src={react} alt="" />
               <img src={figma} alt="" />
               <img src={git} alt="" />
+              <img src={Vercel} alt="" />
             </div>
             </div>
         </div>

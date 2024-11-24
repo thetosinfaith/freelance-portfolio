@@ -166,8 +166,9 @@
 }
 
 .tools img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
     margin: 10px;
     padding: 10px;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -266,7 +267,7 @@
     
         .about-text h1 {
             font-size: 1.8rem; 
-            margin-bottom: 10px; 
+            margin-bottom: 20px; 
         }
     
         .about-text p {
@@ -306,9 +307,8 @@
     }
 
     .tools img {
-        width: 40px;
-        height: 40px;
-        margin: 5px;
+        width: 60px;
+        height: 60px;
     }
 
     .tools p {
