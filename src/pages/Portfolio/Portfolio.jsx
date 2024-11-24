@@ -15,7 +15,7 @@ const Portfolio = () => {
             <h2>I build websites</h2>
             <p>I build webapps using the best tools for the job, but React is my go-to framework.</p>
             
-            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}> →</span>
+            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}> See What I've Built →</span>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ const Portfolio = () => {
             sometimes</h2>
             <p>I might not be the typical designer spending hours on Illustrator, but I design.
             </p>
-            <span className="arrow-icon" onClick={() => navigate("/portfolio/designer")}>→</span>
+            <span className="arrow-icon" onClick={() => navigate("/portfolio/designer")}> Check My Designs →</span>
           </div>
         </div>
       </div>
