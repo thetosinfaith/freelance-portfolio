@@ -10,7 +10,7 @@ const MainFooter = () => {
       <div className='footer-top'>
         <div className='footer-top-left'>
           <img src={logo} alt="Company Logo" />
-          <p>Small text</p>
+          <p>Africa's Most Celebrated Woman in Tech</p>
         </div>
         <div className='footer-top-right'>
           <div className="footer-email-input">
@@ -30,7 +30,6 @@ const MainFooter = () => {
         <div className="footer-bottom-right">
           <p>Terms of Services</p>
           <p>Privacy Policy</p>
-          <p>Connect with me</p>
         </div>
       </div>
     </div>
