@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { FaGithub, FaLink} from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 import Navbar from '../../../components/Navbar/Navbar';
 import projectsData from '../../../data/projects.json';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'; 
 import './Developer.css';
 
 const Developer = () => {
@@ -10,6 +12,12 @@ const Developer = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: true, 
+    });
+
     try {
       setProjects(projectsData);
       setIsLoading(false);
@@ -25,10 +33,10 @@ const Developer = () => {
 
       <h1 className="developer-projects-title">./Websites.</h1>
       <div className="developer-content">
-            <p>Projects I’m Proud Of</p>
-            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
-          </div> 
-    
+        <p>Projects I’m Proud Of</p>
+        <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
+      </div> 
+
       <section className="projects-section">
         {isLoading ? (
           <div className="spinner">Loading...</div>
@@ -38,7 +46,12 @@ const Developer = () => {
           <div className="projects-grid">
             {projects.length > 0 ? (
               projects.map((project, index) => (
-                <div key={index} className="project-card">
+                <div 
+                  key={index} 
+                  className="project-card"
+                  data-aos="fade-up" 
+                  data-aos-delay="100" 
+                >
                   <img
                     src={project.image}
                     alt={project.title}
@@ -79,6 +92,7 @@ const Developer = () => {
           </div>
         )}
       </section>
+
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
       </footer>

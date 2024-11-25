@@ -3,6 +3,8 @@ import { FaFigma, FaBehance } from "react-icons/fa";
 import { CiViewList } from "react-icons/ci";
 import Navbar from '../../../components/Navbar/Navbar';
 import designsData from '../../../data/designs.json';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'; 
 import './Designer.css';
 
 const Designer = () => {
@@ -11,6 +13,13 @@ const Designer = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: true, 
+    });
+
     try {
       setDesigns(designsData);
       setIsLoading(false);
@@ -26,10 +35,9 @@ const Designer = () => {
 
       <h1 className="designer-projects-title">./Designs.</h1>
       <div className="designer-content">
-            <p>Products Worth Seeing.</p>
-            <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
-          </div> 
-      
+        <p>Products Worth Seeing.</p>
+        <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>
+      </div> 
 
       <section className="designer-projects-section">
         {isLoading ? (
@@ -40,7 +48,12 @@ const Designer = () => {
           <div className="designer-projects-grid">
             {designs.length > 0 ? (
               designs.map((design, index) => (
-                <div key={index} className="designer-project-card">
+                <div 
+                  key={index} 
+                  className="designer-project-card"
+                  data-aos="fade-up" 
+                  data-aos-delay="100"
+                >
                   <img
                     src={design.image}
                     alt={design.title}
@@ -82,7 +95,7 @@ const Designer = () => {
         )}
       </section>
 
-       <footer className="footer">
+      <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Tosin Faith. All rights reserved.</p>
       </footer>
     </>

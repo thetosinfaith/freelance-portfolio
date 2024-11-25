@@ -111,11 +111,18 @@ header {
   .navbar-container {
     box-shadow: none;
     width: 100%;
-    height: 100px;
-  }
+      width: 100%;
+      height: 50px; 
+      padding: 0 10px; 
+    }
+  
 
   .navbar-service-link {
     display: none;
+  }
+
+  .navbar-logo {
+    width: 150px; 
   }
 
   .navbar-menu-item {
