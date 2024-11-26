@@ -156,6 +156,29 @@ option:hover {
     resize: none;
 }
 
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .info-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    filter: invert(64%) sepia(39%) saturate(387%) hue-rotate(201deg) brightness(92%) contrast(87%);
+    transition: filter 0.3s ease;
+  }
+  
+  .info-item span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+
 .contact-submit {
     border: none;
     margin-bottom: 50px;

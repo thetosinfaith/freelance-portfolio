@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Portfolio.css";
@@ -6,10 +9,13 @@ import Navbar from "../../components/Navbar/Navbar";
 const Portfolio = () => {
   const navigate = useNavigate();
 
-  const boxVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
-  };
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true, 
+    });
+  }, []);
 
   const hoverEffect = {
     whileHover: { scale: 1.05, transition: { duration: 0.3 } },
@@ -20,12 +26,9 @@ const Portfolio = () => {
     <>
       <Navbar />
       <div className="portfolio">
-
-        <motion.div
+        <div
           className="portfolio-box portfolio-right"
-          variants={boxVariants}
-          initial="hidden"
-          animate="visible"
+          data-aos="fade-right" 
         >
           <div className="portfolio-content">
             <h2>I build websites</h2>
@@ -40,30 +43,26 @@ const Portfolio = () => {
               See What I've Built →
             </motion.span>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
+        <div
           className="portfolio-box portfolio-left"
-          variants={boxVariants}
-          initial="hidden"
-          animate="visible"
+          data-aos="fade-left" 
         >
           <div className="portfolio-content">
-            <h2>
-              I design, sometimes
-            </h2>
+            <h2>I design, sometimes</h2>
             <p>
               I might not be the typical designer spending hours on Illustrator, but I design.
             </p>
             <motion.span
               className="arrow-icon"
               onClick={() => navigate("/portfolio/designer")}
-              {...hoverEffect}
+              {...hoverEffect} 
             >
               Check My Designs →
             </motion.span>
           </div>
-        </motion.div>
+        </div>
       </div>
     </>
   );

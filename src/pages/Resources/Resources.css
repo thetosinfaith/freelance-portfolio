@@ -1,0 +1,114 @@
+.resources-container {
+    padding: 20px 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 40vh;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.resources-title {
+    color: #5E89ED;
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+.resources-list {
+    list-style-type: none;
+    padding: 15px 20px;
+    margin: 0;
+    max-width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    background: #ffffff;
+}
+
+.resources-item {
+    margin: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.resources-item:last-child {
+    border-bottom: none;
+}
+
+.resources-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.resources-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #5E89ED;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.resources-link:hover {
+    color: #4e066b;
+    transform: scale(1.05);
+}
+
+.resources-link:hover::after {
+    width: 100%;
+}
+
+.resources-item:hover {
+    background: #f5e6fb;
+}
+
+@media (max-width: 768px) {
+    .resources-container {
+        padding: 20px 8%;
+    }
+
+    .resources-title {
+        font-size: 36px;
+    }
+
+    .resources-list {
+        padding: 10px 15px;
+    }
+
+    .resources-link {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resources-container {
+        padding: 0px 5%;
+    }
+
+    .resources-title {
+        font-size: 30px;
+    }
+
+    .resources-list {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .resources-link {
+        font-size: 20px;
+    }
+}

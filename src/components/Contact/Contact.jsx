@@ -1,87 +1,91 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import './Contact.css';
-import mail_icon from '../../assets/mail_icon.svg';
-import location_icon from '../../assets/location_icon.svg';
-import call_icon from '../../assets/call_icon.svg';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./Contact.css";
+import mail_icon from "../../assets/mail_icon.svg";
+import location_icon from "../../assets/location_icon.svg";
+import call_icon from "../../assets/call_icon.svg";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 150,    
+      once: true,
+    });
+  }, []);
+
   return (
-    <motion.div 
-      className="contact"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.8 }}
-    >
+    <div className="contact">
       <div className="contact-section">
-        <motion.div
+        <div
           className="contact-left"
-          initial={{ x: -50, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
+          data-aos="fade-right" 
         >
           <h1>Send a Message</h1>
           <p>
-            I'm currently available to take on new projects, so feel free to send me a message about anything
-            that you want me to work on. Message me.
+            I'm currently available to take on new projects, so feel free to
+            send me a message about anything you'd like me to work on.
           </p>
-        </motion.div>
+          <div className="contact-info">
+            <div className="info-item">
+              <img src={mail_icon} alt="Mail Icon" />
+              <span>hellotosinfaith@gmail.com</span>
+            </div>
+            <div className="info-item">
+              <img src={location_icon} alt="Location Icon" />
+              <span>Lagos, Nigeria</span>
+            </div>
+            <div className="info-item">
+              <img src={call_icon} alt="Call Icon" />
+              <span>+234 812 353 9192</span>
+            </div>
+          </div>
+        </div>
 
-        <motion.form
+        <form
           className="contact-right"
-          initial={{ x: 50, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
+          data-aos="fade-left" 
         >
           <label htmlFor="name">Your Name</label>
-          <motion.input
+          <input
             type="text"
             name="name"
             placeholder="Enter your name"
-            whileFocus={{ scale: 1.02 }}
+            className="form-input"
           />
 
           <label htmlFor="email">Your Email</label>
-          <motion.input
+          <input
             type="email"
             name="email"
             placeholder="Enter your email"
-            whileFocus={{ scale: 1.02 }}
+            className="form-input"
           />
 
           <label htmlFor="reason">Reason for Message</label>
-          <motion.select
-            name="reason"
-            id="reason"
-            required
-            whileFocus={{ scale: 1.02 }}
-          >
+          <select name="reason" id="reason" className="form-select" required>
             <option value="">Select a reason</option>
             <option value="job-opportunity">I have a job for you.</option>
             <option value="collaboration">Let’s build something together?</option>
             <option value="general-inquiry">Just wanted to ask a thing or two</option>
             <option value="feedback">I have some feedback for you.</option>
-          </motion.select>
+          </select>
 
           <label htmlFor="message">Write your message here</label>
-          <motion.textarea
+          <textarea
             name="message"
             rows="8"
             placeholder="Hi Tosin, "
-            whileFocus={{ scale: 1.02 }}
-          ></motion.textarea>
+            className="form-textarea"
+          ></textarea>
 
-          <motion.button
-            type="submit"
-            className="contact-submit"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
+          <button type="submit" className="contact-submit">
             Send Message
-          </motion.button>
-        </motion.form>
+          </button>
+        </form>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
