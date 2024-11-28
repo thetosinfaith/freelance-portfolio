@@ -131,8 +131,6 @@ const About = () => {
         </div>
       </div>
 
-      <Resources/>
-
       <Footer/>
     </>
   );
