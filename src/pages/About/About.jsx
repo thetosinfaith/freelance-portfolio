@@ -17,7 +17,6 @@ import circularText from '../../assets/images/circular-text.png'
 import devIcon from '../../assets/images/dev-icon.png'
 import Vercel from '../../assets/images/vercel.png'
 import AOS from 'aos'; 
-import Resources from '../Resources/Resources';
 import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css'; 
 
