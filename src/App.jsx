@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout/MainLayout";
 import About from "./pages/About/About";
-import Resources from "./pages/Resources/Resources";
 import Portfolio from "./pages/Portfolio/Portfolio"; 
 import Developer from "./pages/Portfolio/Developer/Developer"; 
 import Designer from "./pages/Portfolio/Designer/Designer"; 
@@ -12,6 +11,7 @@ import Talks from "./pages/Talks/Talks";
 import Certifications from "./pages/Certifications/Certifications";
 import Awards from "./pages/Awards/Awards";
 import Blog from "./pages/Blog/Blog";
+import Extras from "./components/Extras/Extras";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
         <Route path="portfolio/developer" element={<Developer />} />
         <Route path="portfolio/designer" element={<Designer />} />
 
-        <Route path="resources" element={<Resources />} />
+        <Route path="resources" element={<Extras />} />
         <Route path="/features" element={<Features />} />
         <Route path="/books-courses" element={<BooksCourses />} />
         <Route path="/talks" element={<Talks />} />

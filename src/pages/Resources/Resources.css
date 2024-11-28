@@ -9,6 +9,7 @@
     justify-content: center;
     text-align: left;
     border-radius: 12px;
+    box-sizing: border-box;
 }
 
 .resources-title {
@@ -17,6 +18,7 @@
     margin-bottom: 50px;
     font-weight: 700;
     padding: 15px 20px;
+    text-align: center;
 }
 
 .resources-list {
@@ -25,13 +27,19 @@
     gap: 15px;
     padding: 15px;
     margin: 0;
-    width: 80vw;
+    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
     overflow: hidden;
     text-align: left;
     list-style-type: none;
-    background-color: greenyellow;
     box-sizing: border-box;
+}
+  
+p {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 8px;
 }
 
 .resources-item {
@@ -41,20 +49,21 @@
     padding: 10px;
     transition: background-color 0.3s ease;
     text-align: center;
+    position: relative;
 }
 
 .resources-image {
     width: 100%;
-    height: auto;
-    max-height: 550px;
+    height: 500px;
     border-radius: 8px;
     margin-bottom: 10px;
-    object-fit: cover;
+    overflow: hidden;
 }
 
 .resources-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 .resources-link {
@@ -62,10 +71,17 @@
     font-size: 20px;
     color: black;
     font-weight: bold;
-    position: relative;
+    width: 80%;
     display: inline-block;
     padding: 5px 10px;
     transition: color 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .resources-link::after {
@@ -79,19 +95,15 @@
     transition: width 0.3s ease;
 }
 
-.resources-link:hover {
-    transform: scale(1.05);
-}
-
 .resources-link:hover::after {
     width: 100%;
 }
 
-.resources-item:hover {
-    background: #f5e6fb;
-}
-
 @media (max-width: 768px) {
+    .resources-title {
+        font-size: 36px;
+    }
+
     .resources-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -100,16 +112,20 @@
         padding: 20px 8%;
     }
 
-    .resources-title {
-        font-size: 36px;
-    }
-
     .resources-link {
         font-size: 18px;
+    }
+
+    .resources-image {
+        height: 400px;
     }
 }
 
 @media (max-width: 480px) {
+    .resources-title {
+        font-size: 30px;
+    }
+
     .resources-list {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -118,11 +134,15 @@
         padding: 0px 5%;
     }
 
-    .resources-title {
-        font-size: 30px;
+    .resources-link {
+        font-size: 16px;
     }
 
-    .resources-link {
-        font-size: 20px;
+    .resources-image {
+        height: 400px;
+    }
+
+    .resources-image img {
+        object-fit: contain;
     }
 }

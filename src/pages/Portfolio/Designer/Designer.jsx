@@ -13,6 +13,7 @@ const Designer = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
 
     AOS.init({
       duration: 1000, 

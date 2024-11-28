@@ -46,6 +46,7 @@
     align-items: flex-start;
     width: 100%;
     max-width: 1200px;
+    gap: 50px;
 }
 
 .about-image img {
@@ -59,7 +60,7 @@
 
 .about-text {
     flex: 1;
-    min-width: 300px;
+    min-width: 500px;
     text-align: left;
 }
 
@@ -73,36 +74,6 @@
     line-height: 1.6;
 }
 
-.circle {
-    position: relative;
-    display: inline-block;
-}
-
-.rotating {
-    animation: rotateInPlace 10s linear infinite;
-    transform-origin: center;
-}
-
-.circle img {
-    display: block;
-    width: 150px;
-    border-radius: 100px;
-    height: 150px;
-    object-fit: cover;
-    background-color: white;
-    margin-bottom: -90%;
-    margin-left: -90px;
-}
-
-.circle img.dev-icon {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    top: 50%;
-    left: 50%;
-    transform: translate(100%, -100%);
-}
-
 .more-info {
     display: flex;
     justify-content: space-around;
@@ -113,6 +84,24 @@
     border-radius: 10px;
     height: 30vh;
 }
+
+.more-info .projects .viewp {
+    text-decoration: none; /* Removes the default underline */
+    transition: color 0.3s ease;
+    cursor: pointer; 
+  }
+  
+  /* Hover effect on the link */
+  .more-info .projects .viewp:hover {
+    color: #4b006e; /* Darker shade of purple on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Ensure the Link tag itself is not inheriting unwanted styles */
+  .more-info .projects .viewp a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: inherit; /* Inherit text decoration from parent */
+  }
 
 .more-info > div {
     flex: 1;
@@ -252,7 +241,7 @@
 @media (max-width: 480px) {
     .about-container {
         padding: 10px;
-        align-items: flex-start; 
+        align-items: flex-start;
         text-align: left;
     }
 
@@ -260,55 +249,43 @@
         font-size: 1.5rem;
     }
 
-        .about-text {
-            text-align: left; 
-            padding: 0 35px; 
-        }
-    
-        .about-text h1 {
-            font-size: 1.8rem; 
-            margin-bottom: 20px; 
-        }
-    
-        .about-text p {
-            font-size: 1.1rem; 
-            line-height: 1.6;   
-        }
-
-    .about-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-        width: 80%;           
-    }
-
-    .about-image img {
-        max-width: 100%;        
-        height: auto;        
+    .about-text {
+        text-align: left;
+        padding: 0 80px;
     }
 
     .about-text h1 {
         font-size: 1.8rem;
+        margin-bottom: 20px;
     }
 
     .about-text p {
         font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        height: auto;
     }
 
     .more-info {
         justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
-        flex-direction: column; 
-    }
-    
-    .more-info > div {
-        text-align: left;
+        align-items: flex-start;        
+        flex-direction: column;
     }
 
+    
     .tools img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     .tools p {
