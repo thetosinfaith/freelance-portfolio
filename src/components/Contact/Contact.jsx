@@ -1,27 +1,14 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import "./Contact.css";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      offset: 150,    
-      once: true,
-    });
-  }, []);
-
   return (
     <div className="contact">
       <div className="contact-section">
-        <div
-          className="contact-left"
-          data-aos="fade-right" 
-        >
+        <div className="contact-left">
           <h1>Send a Message</h1>
           <p>
             I'm currently available to take on new projects, so feel free to
@@ -43,10 +30,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form
-          className="contact-right"
-          data-aos="fade-left" 
-        >
+        <form className="contact-right">
           <label htmlFor="name">Your Name</label>
           <input
             type="text"

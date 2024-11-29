@@ -6,7 +6,7 @@ const CardLayout = () => {
     <section className="card_section">
       <div className="card_wrapper">
         <Card 
-          title="About Me"
+          title="Background"
           to="/about" 
           emoji="📜"
           pillText="Start Here"

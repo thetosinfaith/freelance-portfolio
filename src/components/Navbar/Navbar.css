@@ -130,8 +130,7 @@ header {
   }
 
   .navbar-mobile-toggle {
-    display: block;
-    z-index: 9999;
+    display: block;    
   }
 }
 
@@ -141,6 +140,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999; 
 }
 
 .navbar-mobile-menu.show {
@@ -155,6 +155,7 @@ header {
   min-width: 200px;
   padding: 30px;
   border-radius: 3px 0;
+  
 }
 
 .navbar-mobile-menu nav {

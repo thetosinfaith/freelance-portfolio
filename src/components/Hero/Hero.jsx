@@ -29,7 +29,7 @@ const Hero = () => {
           <h6 className="subtitle">
             I build frontend applications. Sometimes I design, and very rarely I work on the backend. I ensure that the apps I deliver are fast, easy to use, and responsive.
           </h6>
-          <div className="social-icons" data-aos="fade-up" data-aos-delay="400">
+          <div className="social-icons">
             <a href="https://wa.me/+2348123539192" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-whatsapp"></i>
             </a>
@@ -50,7 +50,7 @@ const Hero = () => {
             </a>
           </div>
           <a href="https://wa.me/+2348123539192" className="cta" target="_blank" rel="noopener noreferrer">
-            <button className="hero_button" data-aos="flip-up" data-aos-delay="600">Let’s chat</button>
+            <button className="hero_button">Let’s chat</button>
           </a>
         </div>
       </div>
