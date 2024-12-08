@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css';
-import User from '../../assets/bigtee.jpg'; 
+import User from '../../assets/z.jpg'; 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import AOS from 'aos'; 

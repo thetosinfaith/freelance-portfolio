@@ -6,12 +6,12 @@ import Contact from '../../components/Contact/Contact'
 
 const MainLayout = () => {
   return (
-       <>
+      <>
       <Navbar />
       <Hero />
-    <Outlet />
-    <Contact/>
-    <MainFooter />
+      <Outlet />
+      <Contact/>
+      <MainFooter />
     </>
   )
 }
