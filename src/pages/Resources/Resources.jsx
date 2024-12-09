@@ -8,9 +8,9 @@ import Talks from '../../assets/stage.jpg'
 import Code from '../../assets/check.jpg'
 import Books from '../../assets/books.jpg'
 import Awards from '../../assets/awards.jpg'
-import Podcast from '../../assets/podd.jpg'
-import Features from '../../assets/m.jpg'
-import Lead from '../../assets/blog.png'
+import Podcast from '../../assets/chats.png'
+import Features from '../../assets/hottie.jpg'
+import Lead from '../../assets/bg.png'
 
 
 
@@ -40,20 +40,20 @@ const Resources = () => {
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="300">
                         <img src={Podcast} alt="Certifications" className="resources-image" />
                         <Link to="/certifications" className="resources-link">Podcasts
-                        <p>Fun Conversations I’ve Had</p>
+                        <p>Fun Conversations Here</p>
                         </Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="200">
                         <img src={Talks} alt="Talks" className="resources-image" />
                         <Link to="/talks" className="resources-link">Talks
-                        <p>I’ve been on Stage too</p>
+                        <p>I’ve Been On Stage Too</p>
                         </Link>
                        
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="400">
                         <img src={Features} alt="Awards" className="resources-image" />
                         <Link to="/awards" className="resources-link">Features
-                        <p>Where I’ve Been Mentioned</p></Link>
+                        <p>Where I’ve Been Featured</p></Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="100">
                         <img src={Books} alt="Books and Courses" className="resources-image" />
@@ -72,15 +72,15 @@ const Resources = () => {
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="400">
                         <img src={Awards} alt="Awards" className="resources-image" />
-                        <Link to="/awards" className="resources-link">Awards
-                        <p>Recognition I’m Proud Of.
+                        <Link to="/certificates" className="resources-link">Certificates
+                        <p>Pofessional Highlights
 
 </p>
                         </Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="100">
                         <img src={Lead} alt="Books and Courses" className="resources-image" />
-                        <Link to="/books-courses" className="resources-link">My Blog
+                        <Link to="/blog" className="resources-link">My Blog
                         <p>My Thoughts in Writing.</p>
 
                         </Link>
