@@ -1,15 +1,27 @@
 [
   {
-    "CourseTitle": "HP LIFE Ambassador",
-    "CertifiedBy": "HP LIFE",
-    "DateAwarded": "12/9/2024",
-    "ImageURL": "/amb.png"
+    "CourseTitle": "Frontend Development",
+    "CertifiedBy": "The Curve Africa",
+    "DateAwarded": "27/9/2024",
+    "ImageURL": "/curve.png"
   },
   {
     "CourseTitle": "Virtual Assistant Programme",
     "CertifiedBy": "ALX - The Room",
     "DateAwarded": "Aug 2022",
     "ImageURL": "https://vbeventstorage.blob.core.windows.net/event-8176/cert_images/cer-4d6533d4-0d84-43c6-a1a1-027f208a.png?423"
+  },
+  {
+    "CourseTitle": "Art Business & Entrepreneurship",
+    "CertifiedBy": "Terra Academy For The Arts",
+    "DateAwarded": "2024-03-05",
+    "ImageURL": "/sr.png"
+  },
+  {
+    "CourseTitle": "HP LIFE Ambassador",
+    "CertifiedBy": "HP LIFE",
+    "DateAwarded": "12/9/2024",
+    "ImageURL": "/amb.png"
   },
   {
     "CourseTitle": "Effective Presentations",
@@ -19,15 +31,9 @@
   },
   {
     "CourseTitle": "Google My Business",
-    "CertifiedBy": "Google Academy (Skillshare)",
+    "CertifiedBy": "Google (Skillshare)",
     "DateAwarded": "Apr 2023",
     "ImageURL": "/gg.png"
-  },
-  {
-    "CourseTitle": "Art Business & Entrepreneurship",
-    "CertifiedBy": "Terra Academy For The Arts",
-    "DateAwarded": "2024-03-05",
-    "ImageURL": "/sr.png"
   },
   {
     "CourseTitle": "Inventory Management",

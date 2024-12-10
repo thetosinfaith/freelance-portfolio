@@ -31,34 +31,34 @@ const Resources = () => {
                 <ul className="resources-list">
                     <li className="resources-item" data-aos="fade-up">
                         <img src={Communities} alt="Features" className="resources-image" />
-                        <Link to="/features" className="resources-link">Communities
+                        <Link to="/communities" className="resources-link">Communities
 
-                        <p>Spaces I Help Build</p>
+                        <p>Spaces I Help Build <br />→</p>
                         
                         </Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="300">
                         <img src={Podcast} alt="Certifications" className="resources-image" />
                         <Link to="/certifications" className="resources-link">Podcasts
-                        <p>Fun Conversations Here</p>
+                        <p>Fun Conversations Here <br /> →</p>
                         </Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="200">
                         <img src={Talks} alt="Talks" className="resources-image" />
                         <Link to="/talks" className="resources-link">Talks
-                        <p>I’ve Been On Stage Too</p>
+                        <p>I’ve Been On Stage Too <br /> →</p>
                         </Link>
                        
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="400">
                         <img src={Features} alt="Awards" className="resources-image" />
                         <Link to="/awards" className="resources-link">Features
-                        <p>Where I’ve Been Featured</p></Link>
+                        <p>Where I’ve Been Featured <br />→</p></Link>
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="100">
                         <img src={Books} alt="Books and Courses" className="resources-image" />
                         <Link to="/books-courses" className="resources-link">Books and Courses
-                        <p>Learn Something New</p>
+                        <p>Learn Something New <br />→</p>
 
                         </Link>
                     </li>
@@ -66,14 +66,14 @@ const Resources = () => {
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="200">
                         <img src={Code} alt="Talks" className="resources-image" />
                         <Link to="/portfolio" className="resources-link">Portfolio
-                        <p>Check Out What I’ve Built</p>
+                        <p>Projects I’ve Built <br />→</p>
                         </Link>
                        
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="400">
                         <img src={Awards} alt="Awards" className="resources-image" />
                         <Link to="/certificates" className="resources-link">Certificates
-                        <p>Pofessional Highlights
+                        <p>Career Achievements <br />→
 
 </p>
                         </Link>
@@ -81,7 +81,7 @@ const Resources = () => {
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="100">
                         <img src={Lead} alt="Books and Courses" className="resources-image" />
                         <Link to="/blog" className="resources-link">My Blog
-                        <p>My Thoughts in Writing.</p>
+                        <p>My Thoughts in Writing <br /> →</p>
 
                         </Link>
                     </li>

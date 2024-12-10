@@ -12,6 +12,7 @@ import Certifications from "./pages/Certifications/Certifications";
 import Awards from "./pages/Awards/Awards";
 import Blog from "./pages/Blog/Blog";
 import Extras from "./components/Extras/Extras";
+import Communities from "./pages/Communities/Communities";
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
         <Route path="portfolio/designer" element={<Designer />} />
 
         <Route path="resources" element={<Extras />} />
-        <Route path="/features" element={<Features />} />
+        <Route path="/communities" element={<Communities />} />
         <Route path="/books-courses" element={<BooksCourses />} />
         <Route path="/talks" element={<Talks />} />
         <Route path="/certificates" element={<Certifications />} />

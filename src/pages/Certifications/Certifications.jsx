@@ -6,13 +6,17 @@ import Navbar from '../../components/Navbar/Navbar';
 const Certifications = () => {
   const [certifications, setCertifications] = useState(certificationsData);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    });
+
   return (
     <>
     <Navbar/>
       <div className="certifications-container">
         <div className="certifications-content">
           <h1>Certifications</h1>
-          <p>My Professional Achievements → </p>
+          <p>Professional Achievements → </p>
         </div>
 
         <div className="certifications-grid">

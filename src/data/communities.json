@@ -1,0 +1,51 @@
+[
+    {
+      "communityName": "AdoraHack Study Groups",
+      "role": "Creator",
+      "description": "AdoraHack Study Groups is an online community for people to ask questions, share, learn, collaborate and grow together. As people in tech, we struggle sometimes and having peers and experts to ask for help and get answers to technical questions is priceless.",
+      "tracks": [
+        "Data Structures and Algorithms",
+        "Frontend",
+        "Backend",
+        "Mobile",
+        "Cloud",
+        "Data Engineering"
+      ]
+    },
+    {
+      "communityName": "Tech Innovators Network",
+      "role": "Admin",
+      "description": "Tech Innovators Network is a group for professionals, entrepreneurs, and hobbyists to collaborate, innovate, and share the latest in technology. Whether you’re looking to build the next big thing or simply want to keep up with the latest trends, this is the place to be.",
+      "tracks": [
+        "AI and Machine Learning",
+        "Blockchain",
+        "IoT",
+        "Cybersecurity",
+        "Tech Entrepreneurship"
+      ]
+    },
+    {
+      "communityName": "DevXperts",
+      "role": "Moderator",
+      "description": "DevXperts is a global community for developers of all skill levels to exchange knowledge, solve problems, and discuss the latest tech. From beginner coders to industry veterans, everyone has something to contribute.",
+      "tracks": [
+        "Web Development",
+        "Mobile Development",
+        "Cloud Computing",
+        "DevOps",
+        "Software Architecture"
+      ]
+    },
+    {
+      "communityName": "Women in Tech",
+      "role": "Member",
+      "description": "Women in Tech is a supportive community that promotes the inclusion of women in all aspects of technology. The community focuses on sharing experiences, learning from one another, and empowering women to thrive in the tech industry.",
+      "tracks": [
+        "Frontend",
+        "Backend",
+        "Leadership in Tech",
+        "Tech Career Development"
+      ]
+    }
+  ]
+  

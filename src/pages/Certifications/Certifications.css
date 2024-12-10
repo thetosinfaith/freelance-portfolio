@@ -35,7 +35,7 @@
 
 .certification-item {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
@@ -52,10 +52,10 @@
     width: 100%;
     max-width: 300px;
     height: auto;
-    max-height: 150px;
-    object-fit: contain;
+    max-height: 250px;
     border-radius: 8px;
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 .certification-item h3 {
@@ -81,6 +81,6 @@
     }
 
     .certifications-content h1 {
-        margin-bottom: 4%;
+        margin-bottom: 8%;
     }
 }
