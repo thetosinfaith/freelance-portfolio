@@ -34,9 +34,10 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <h1 className='blog-h1'>Our Blog</h1>
-        <p className='blog-hp'>Latest articles from Medium</p>
+      <div className='blog-container'>
+      <div className='blog-content'>
+        <h1>Our Blog</h1>
+        <p>Latest articles from Medium</p>
       </div>
 
       <div className="blog-posts">
@@ -60,6 +61,7 @@ const Blog = () => {
         ) : (
           <p>Loading posts...</p>
         )}
+      </div>
       </div>
       <MainFooter/>
     </>

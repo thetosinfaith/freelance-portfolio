@@ -12,8 +12,6 @@ import Podcast from '../../assets/chats.png'
 import Features from '../../assets/hottie.jpg'
 import Lead from '../../assets/bg.png'
 
-
-
 const Resources = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
