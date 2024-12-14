@@ -20,7 +20,7 @@
     "description": "Micdee is a real estate company in Sub-Saharan Africa. House agents can put up listings of houses for sale, lease, or rent.",
     "image": "/micdee.png",
     "link": "https://micdee-real-estate.vercel.app/",
-    "stack": ["React", "Redux", "Firebase"],
+    "stack": ["React", "Redux"],
     "github": "https://github.com/username/micdee-estates"
   },
   {
@@ -28,7 +28,7 @@
       "description": "Shop.Rhai is a fashion brand for modern women, they sell Luxury Urban Outfits! All made in Aba, Nigeria.",
       "image": "/rhai.png",
       "link": "https://myblogplatform.com",
-      "stack": ["Next.js", "CSS Modules"],
+      "stack": ["React", "Redux"],
       "github": "https://github.com/username/shoprhai"
   },
   {
@@ -36,7 +36,7 @@
     "description": "I wrote a love letter to my longtime crush who lives abroad, but unfortunately, I never received a reply.",
     "image": "/tade.png",
     "link": "https://leter-to-my-crush.vercel.app/",
-    "stack": ["React", "Node.js", "PostgreSQL"],
+    "stack": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/username/quicknotes"
   },
   {
@@ -44,7 +44,7 @@
       "description": "I saw a really nice to-do list design on Dribbble and recreated it with React. Now I use it to plan my tasks for the day.",
       "image": "/todolist.png",
       "link": "https://todo-list-thetosinfaith.vercel.app/",
-      "stack": ["React", "Styled Components"],
+      "stack": ["React", "Redux"],
       "github": "https://github.com/username/todo-list"
   }
 ]

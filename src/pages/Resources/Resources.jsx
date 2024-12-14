@@ -6,7 +6,7 @@ import './Resources.css';
 import Communities from '../../assets/community.jpg'
 import Talks from '../../assets/stage.jpg'
 import Code from '../../assets/check.jpg'
-import Books from '../../assets/books.jpg'
+import Books from '../../assets/bk.png'
 import Awards from '../../assets/awards.jpg'
 import Podcast from '../../assets/chats.png'
 import Features from '../../assets/hottie.jpg'
@@ -25,7 +25,7 @@ const Resources = () => {
     return (
         <>
             <div className="resources-container">
-                <h1 className="resources-title" data-aos="fade-down">Resources</h1>
+                <h1 className="resources-title" data-aos="fade-down">QuickLinks</h1>
                 <ul className="resources-list">
                     <li className="resources-item" data-aos="fade-up">
                         <img src={Communities} alt="Features" className="resources-image" />
@@ -37,7 +37,7 @@ const Resources = () => {
                     </li>
                     <li className="resources-item" data-aos="fade-up" data-aos-delay="300">
                         <img src={Podcast} alt="Certifications" className="resources-image" />
-                        <Link to="/certifications" className="resources-link">Podcasts
+                        <Link to="/talks" className="resources-link">Podcasts
                         <p>Fun Conversations Here <br /> →</p>
                         </Link>
                     </li>

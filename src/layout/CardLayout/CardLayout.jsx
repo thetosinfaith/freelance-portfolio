@@ -6,28 +6,28 @@ const CardLayout = () => {
     <section className="card_section">
       <div className="card_wrapper">
         <Card 
-          title="About Me"
+          title="Know Tosin"
           to="/about" 
-          emoji="📜"
-          pillText="Start Here"
+          emoji="👋"
+          pillText="Let’s Begin!"
         />
         <Card 
-          title="Portfolio"
+          title="Projects HQ"
           to="/portfolio" 
           emoji="📂"
-          pillText="Featured"
+          pillText="See My Best"
         />
         <Card 
-          title="Thoughts"
+          title="Her Journal"
           to="/blog"  
-          emoji="📝"
-          pillText="Latest"
+          emoji="✍️"
+          pillText="What’s New?"
         />
         <Card 
-          title="Resources"
+          title="Quick Links"
           to="/resources" 
-          emoji="💼"
-          pillText="Highlights"
+          emoji="⭐"
+          pillText="More Highlights"
         />
       </div>
     </section>

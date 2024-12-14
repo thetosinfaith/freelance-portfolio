@@ -1,51 +1,89 @@
 [
-    {
-      "communityName": "AdoraHack Study Groups",
-      "role": "Creator",
-      "description": "AdoraHack Study Groups is an online community for people to ask questions, share, learn, collaborate and grow together. As people in tech, we struggle sometimes and having peers and experts to ask for help and get answers to technical questions is priceless.",
-      "tracks": [
-        "Data Structures and Algorithms",
-        "Frontend",
-        "Backend",
-        "Mobile",
-        "Cloud",
-        "Data Engineering"
-      ]
-    },
-    {
-      "communityName": "Tech Innovators Network",
-      "role": "Admin",
-      "description": "Tech Innovators Network is a group for professionals, entrepreneurs, and hobbyists to collaborate, innovate, and share the latest in technology. Whether you’re looking to build the next big thing or simply want to keep up with the latest trends, this is the place to be.",
-      "tracks": [
-        "AI and Machine Learning",
-        "Blockchain",
-        "IoT",
-        "Cybersecurity",
-        "Tech Entrepreneurship"
-      ]
-    },
-    {
-      "communityName": "DevXperts",
-      "role": "Moderator",
-      "description": "DevXperts is a global community for developers of all skill levels to exchange knowledge, solve problems, and discuss the latest tech. From beginner coders to industry veterans, everyone has something to contribute.",
-      "tracks": [
-        "Web Development",
-        "Mobile Development",
-        "Cloud Computing",
-        "DevOps",
-        "Software Architecture"
-      ]
-    },
-    {
-      "communityName": "Women in Tech",
-      "role": "Member",
-      "description": "Women in Tech is a supportive community that promotes the inclusion of women in all aspects of technology. The community focuses on sharing experiences, learning from one another, and empowering women to thrive in the tech industry.",
-      "tracks": [
-        "Frontend",
-        "Backend",
-        "Leadership in Tech",
-        "Tech Career Development"
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "ArtMesh: For Creatives",
+    "description": "ArtMesh is an open mic event that brings together creatives like writers, poets, storytellers, and artists – plus anyone who simply loves art.",
+    "category": [
+      "Open Mic",
+      "Meet N Greet"
+    ],
+    "location": "American Corner, Ikeja, Lagos.",
+    "role": "Volunteer",
+    "joinLink": "https://t.me/s/arthutchannel?before=2",
+    "img": "/a.png",
+    "cta": "Express Yourself Here"
+  },
+  {
+    "id": 6,
+    "name": "FitTrackers Running Club",
+    "description": "We’re all about running, but we also mix it up with other workouts like cardio, aerobics, yoga, and more - because fitness should be fun too.",
+    "category": [
+      "Fitness",
+      "Health"
+    ],
+    "location": "Unilag Sports Center",
+    "role": "Member",
+    "joinLink": "https://www.example.com/join/fit-trackers",
+    "img": "/m.png",
+    "cta": "Join Us For A Run"
+
+  },
+  {
+    "id": 2,
+    "name": "Workplace Women",
+    "description": "This initiative is here to guide, support, and equip women. It’s a space where women are supported, prepared, and ready to take on the workplace.",
+    "category": [
+      "Women Empowerment"
+    ],
+    "location": "Lagos, Nigeria",
+    "role": "Member",
+    "joinLink": "http://www.workplacewomen.org",
+    "img": "https://pbs.twimg.com/media/GZtGZAuWgAkdDKI?format=jpg&name=large",
+    "cta": "Get The Support You Need"
+  },
+
+  {
+    "id": 5,
+    "name": "Young People In Tech",
+    "description": "YPIT is a global community for young, techies — whether you’re just starting out or dreaming big in tech. It’s a space to connect, learn, and grow.",
+    "category": [
+      "Tech",
+      "Remote Work"
+    ],
+    "location": "Global",
+    "role": "Community Member",
+    "joinLink": "https://tally.so/r/wb8a90",
+    "img": "/w.jpg", 
+    "cta": "Connect With Young Techies"
+  },
+  {
+    "id": 7,
+    "name": "GitHub Campus Community Unilag",
+    "description": "A group of Campus Experts coming together to organize fun events, programs, and coding competitions to help students at Unilag level up.",
+    "category": [
+      "Technology",
+      "Education"
+    ],
+    "location": "Lagos, Nigeria",
+    "role": "Community Member",
+    "joinLink": "https://education.github.com/students",
+    "img": "https://media.licdn.com/dms/image/v2/D4E22AQGT4pmnxFy1vg/feedshare-shrink_800/feedshare-shrink_800/0/1723399578826?e=1736985600&v=beta&t=DUg9cevaGRWU-HpS_uOScwx53hZIsyc-RRtnOC7J4pI",
+    "cta": "Boost Your Coding Skills"
+
+  },
+  {
+    "id": 8,
+    "name": "ZIP TRYBE 🟡",
+    "description": "ZIP TRYBE is an educational community where students can connect, find study partners, share class resources or simply make friends.",
+    "category": [
+      "Education",
+      "Community"
+    ],
+    "location": "Ibadan, Nigeria",
+    "role": "Member",
+    "joinLink": "https://ZIP.mebitechnologies.com",
+    "img": "/o.jpg",
+    "cta": "Find Study Partners"
+
+  }
+]

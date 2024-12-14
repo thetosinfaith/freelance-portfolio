@@ -36,7 +36,7 @@ const Blog = () => {
       <Navbar />
       <div className='blog-container'>
       <div className='blog-content'>
-        <h1>Our Blog</h1>
+        <h1>Read My Journal</h1>
         <p>Latest articles from Medium</p>
       </div>
 
