@@ -22,12 +22,12 @@ const Hero = () => {
           data-aos="zoom-in"
         />
         <div className="content" data-aos="fade-in" data-aos-delay="200">
-          <h6 className="greeting">Hello, I'm Tosin Faith</h6>
+          <h6 className="greeting">Hello, I'm Tosin Faith O.</h6>
           <h1 className="main_head">
             <span className="highlight">Frontend Developer</span> <br />
           </h1>
           <h6 className="subtitle">
-            I build frontend applications. Sometimes I design, and very rarely I work on the backend. I ensure that the apps I deliver are fast, easy to use, and responsive.
+          I build frontend applications using HTML, CSS, and JavaScript, focusing on performance and responsiveness. Sometimes, I design user interfaces, and rarely, I handle backend tasks. My goal is to create fast, user-friendly applications for a smooth experience.
           </h6>
           <div className="social-icons">
             <a href="https://wa.me/+2348123539192" target="_blank" rel="noopener noreferrer">
