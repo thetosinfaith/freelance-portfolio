@@ -1,20 +1,20 @@
-import React, { useEffect } from 'react';
-import './About.css';
-import User from '../../assets/z.jpg'; 
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
-import AOS from 'aos'; 
-import 'aos/dist/aos.css'; 
-import Stack from '../../components/Stack/Stack';
-import MoreInfo from '../../components/MoreInfo/MoreInfo';
+import React, { useEffect } from "react";
+import "./About.css";
+import User from "../../assets/cd.png";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import MoreInfo from "../../components/MoreInfo/MoreInfo";
+import Brands from "../../components/Brands/Brands";
+import Stack from "../../components/Stack/Stack";
 
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-
     AOS.init({
-      duration: 1000, 
-      easing: 'ease-in-out', 
+      duration: 1000,
+      easing: "ease-in-out",
       once: true,
     });
   }, []);
@@ -22,76 +22,80 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className='upper-about'>
-        <p>Introduction</p>
-        <h1>About Me</h1>
+      <div className="upper-about">
+        <p className="intro-text">Introduction</p>
+        <h1 className="main-title">About Me</h1>
       </div>
 
       <div className="about-container">
         <div className="about-content">
           <div className="about-image">
-            <img src={User} alt="Logo" />
+            <img src={User} alt="Tosin Faith" />
           </div>
           <div className="about-text" data-aos="fade-up">
-            <h1>Hello, I'm Tosin Faith.</h1>
-
-            <p>Well, if you are here, you know me.</p>
-
-            <p>You know I don't do it at all unless it is done right.</p>
-
-            <p>My name is Oluwatosin Faith Ogungbaye — but you can call me Big Tee!</p>
+            <h1 className="sub-title">Meet Tosin Faith</h1>
             <p>
-              I’m currently a Frontend Web Developer, based in Lagos, Nigeria. I use React to create beautiful, functional websites. Right now, <a href="https://docs.google.com/document/d/12_OZNg2Ae8xLvymKcp5qaXHZE-obTlYNlNAxQ_nS5UI/view?tab=t.0">I’m looking for a job</a> where I can put my skills to good use and work on meaningful projects.
+              Well, if you are here, you know I don't do it at all unless it is
+              done right.
             </p>
-            <h2>Student</h2>
             <p>
-              Alongside my career in tech, I’m pursuing a degree in Accounting at the University of Lagos, Nigeria. I also recently graduated from <a href="https://the-curve.africa/">The Curve by Kora</a> as a Frontend Developer, where I had the privilege of mentoring a mentee after graduating.
+              Everybody who ever worked with me agrees that{" "}
+              <i>Tosin knows her stuff.</i>
             </p>
-            <h2>Team Lead</h2>
             <p>
-              In September 2024, I led a team of 5 to victory at The Curve by Kora Hackathon. Out of 12 teams, we came in first place for our standout work on UI, functionality, and presentation with <a href="https://kindraise.vercel.app/">KindRaise</a>.
+              {" "}
+              I have worn a lot of hats. And considering the size of my head, I
+              think they are a little too many. Right now, I'm a web developer
+              completely sold out to designing and building professional,
+              beautiful websites you'll love.
+            </p>
+            <h2>Accountant</h2>
+            <p>
+              I’m currently studying Accounting, a 5 - year course. Sometimes, I
+              spend most of my time figuring out why the debit and credit side
+              of an accout sheet is not balancing.
             </p>
 
-            <h2>Author</h2>
-
+            <h2>Writer</h2>
             <p>
-              Apart from being a Developer, I’ve written two books:
+              On some days, I write about web development, leaving home, and
+              building a personal brand. I’ve also authored two books:{" "}
+              <a href="#">Click here.</a>
+            </p>
+
+            <h2>Speaker</h2>
+            <p>
+              I’m not a conventional speaker, and I never will be. I don’t talk
+              about strategies - I show you how to apply them. I always have so
+              much to say on:
             </p>
             <ul>
-              <li>
-                <strong>10 Things You Need to Know Before Leaving Home</strong> (October 2021): 
-              </li>
-              <p>A simple guide to help anyone get ready for living on their own. <a href="#">Get it here.</a>
-              </p>
-              <li>
-                <strong>Leaving Home Made Easy</strong> (November 2022):
-              </li>
-              <p>A step-by-step plan for making the move to adulthood easier. <a href="#">Get it here.</a></p>
-            </ul>            
-            <h2>            Impact Leader            </h2>
+              <li>Building a Personal Brand</li>
+              <li>Growth & Leaving Home</li>
+              <li>My Journey as a Web Developer</li>
+              <li>Work Life Balance</li>
+              <li>Women</li>
+              <li>Finance</li>
+              <li>Creator Economy</li>
+            </ul>
             <p>
-              As someone who left home at a young age and found success, I was inspired to start an academy to help girls, especially those who have run away, navigate their transition to independence. <a href="#">Join the community here.</a>
+              <a href="mailto:hellotosinfaith@gmail.com">Invite Me to Speak</a>
             </p>
 
-            <h2>Content Creator</h2>
             <p>
-              On my <a href="https://www.instagram.com/thetosinfaith/">Instagram</a>, I share content about technology, my personal journey as a dev, and useful tips to help runaway grow.
+              <a href="https://www.instagram.com/thetosinfaith/">
+                Say Hello on Instagram
+              </a>
             </p>
             <p>
-              When I’m not coding, I listen to my (<a href="https://open.spotify.com/playlist/1EVE9kOZ2i4171hNdvWVhU">playlist</a>) and help people be their best selves.
+              <a href="#">Work With Me</a>
             </p>
-            <p>
-              <a href="https://www.instagram.com/thetosinfaith/">Say Hello</a>
-            </p>
-            <p>
-              <a href="#">Hire Me</a>
-            </p>
-            <MoreInfo/>
-            <Stack/>
+            <MoreInfo />
           </div>
         </div>
       </div>
-      <Footer/>
+      <Stack />
+      <Footer />
     </>
   );
 };

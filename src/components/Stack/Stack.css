@@ -1,49 +1,132 @@
-.tools {
-    text-align: left;
-    padding: 20px;
-}
-
-.tools p {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.tech-stack-container {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    overflow: hidden; 
+    transform: translateY(60px);
+  }
+  
+  .tech-stack-title {
     color: #333;
-}
-
-.tools img {
-    width: 70px;
-    height: 70px;
-    background-color: aqua;
-    margin: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: "BlueteaFont", sans-serif;
+    top: 0;
+    z-index: 10;
+    white-space: nowrap;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%; 
+  }
+  
+  .tech-stack-grid-wrapper {
+    display: flex;
+    width: 100%;
+    animation: scroll-left 10s linear infinite;
+    will-change: transform;
+  }
+  
+  .tech-stack-grid {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tech-stack-card {
+    margin-top: 5%;
+    border-radius: 8px;
     padding: 10px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-}
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tech-stack-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-stack-logo {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+    transition: width 0.3s, height 0.3s;
+  }
 
-.tools img:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
-}
-
-@media (max-width: 480px) {
-    .tools {
-        display: flex; 
-        justify-content: flex-start;
-        align-items: center; 
-        gap: 10px;
-        flex-wrap: wrap; 
-        width: calc(100% - 40px);
-        margin: 0 auto;
-        text-align: left;
-        
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
     }
-
-    .tools img {
-        margin: 0;
-        display: inline-block; 
-        width: 60px;
-        height: 60px;
+    100% {
+      transform: translateX(-100%);
     }
-
-}
+  }
+  
+  @media (max-width: 768px) {
+    .tech-stack-container {
+      width: 80%;
+      margin-top: 10%;
+      padding: 15px;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      transform: translateY(0);
+      position: relative;
+    }
+  
+    .tech-stack-title {
+      font-size: 18px;
+      margin: 15px 0;
+      width: 100%;
+      padding: 10px 0;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .tech-stack-grid-wrapper {
+      display: flex;
+      width: 100%;
+      animation: scroll-left 5s linear infinite;
+      will-change: transform;
+      margin-top: 10%;
+    }
+  
+    .tech-stack-grid {
+      display: flex;
+      gap: 15px;
+      width: fit-content;
+    }
+  
+    .tech-stack-card {
+        margin-top: 5%;
+      width: 60px;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+  
+    .tech-stack-logo {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      transition: width 0.3s, height 0.3s;
+    }
+  
+ 
+  
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  }

@@ -1,0 +1,166 @@
+.speaking-upper {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.speaking-intro {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.speaking-main-title {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.speaking-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  margin-top: 2%;
+}
+
+.speaking-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+
+.speaking-text h1 {
+  font-size: 1.3rem;
+  margin-bottom: 4%;
+  text-align: left;
+  font-weight: normal;
+}
+
+.speaking-button {
+  margin-top: 4%;
+  padding: 15px 30px;
+  border: none;
+  background: var(--accent_colour);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: flex-start;
+  margin-left: 12%;
+  margin-right: 12%; 
+}
+
+.speaking-button a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.speaking-button:hover {
+  transform: scale(1.05);
+  background-color: #f24a8f;
+}
+
+.speaking-text p {
+  max-width: 800px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.speaking-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ca0470;
+  text-align: left;
+  gap: 30px;
+}
+
+.speaking-text a:hover {
+  text-decoration: underline;
+  color: #f24a8f;
+}
+
+.speaking-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.speaking-item {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speaking-item:hover {
+  transform: translateY(-5px);
+}
+
+.speaking-item img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 600px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.speaking-item h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 12%;
+  max-width: 450px;
+  line-height: 1.7;
+}
+
+.speaking-item p {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  padding-left: 12%;
+}
+
+@media (max-width: 768px) {
+  .speaking-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .speaking-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .speaking-text h1 {
+    margin-top: -7%;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .speaking-text p {
+    text-align: left;
+  }
+
+  .speaking-button {
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+
+  .speaking-item h3 {
+    text-align: left;
+    padding-left: 5%;
+    line-height: 1.7;
+  }
+}

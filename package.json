@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "@lottiefiles/dotlottie-react": "^0.12.1",
     "aos": "^2.3.4",
+    "axios": "^1.7.9",
+    "emailjs-com": "^3.2.0",
     "feather-icons": "^4.29.2",
     "framer-motion": "^11.11.17",
     "hamburger-react": "^2.5.1",
+    "lottie-react": "^2.4.0",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",

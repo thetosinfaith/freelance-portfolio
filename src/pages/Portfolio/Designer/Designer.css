@@ -87,14 +87,14 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    color: #007bff;
+    color: #CA0470;
     text-decoration: none;
     font-size: 14px;
 }
 
 .designer-links a:hover {
     text-decoration: underline;
-    color: #0056b3;
+    color: #CA0470;
 }
 
 .designer-project-header {

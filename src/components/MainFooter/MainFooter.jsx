@@ -1,18 +1,18 @@
-import React from 'react';
-import logo from "../../assets/logo.jpg";
+import React from "react";
+import logo from "../../assets/new.png";
 import user_icon from "../../assets/user_icon.svg";
 
-import './MainFooter.css';
+import "./MainFooter.css";
 
 const MainFooter = () => {
   return (
-    <div className='mainfooter'>
-      <div className='footer-top'>
-        <div className='footer-top-left'>
+    <div className="mainfooter">
+      <div className="footer-top">
+        <div className="footer-top-left">
           <img src={logo} alt="Company Logo" />
           <p>Africa's Most Celebrated Woman in Tech</p>
         </div>
-        <div className='footer-top-right'>
+        <div className="footer-top-right">
           <div className="footer-email-input">
             <img src={user_icon} alt="User Icon" />
             <input

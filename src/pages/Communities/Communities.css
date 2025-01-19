@@ -5,7 +5,7 @@
 
 .community-header {
   text-align: center;
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-size: 32px;
   margin-bottom: 30px;
   font-weight: 600;
@@ -23,10 +23,8 @@
 
 .community-item {
   background-color: #ffffff;
-  border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  width: calc(50% - 15px); 
+  width: calc(50% - 15px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   overflow: hidden;
@@ -34,7 +32,6 @@
 
 .community-item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .community-title {
@@ -53,7 +50,7 @@
 }
 
 .community-item p strong {
-  color: #690896;
+  color: #ca0470;
 }
 
 .community-item p {
@@ -64,9 +61,9 @@
 
 .community-item p span {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 8px;
   margin-right: 8px;
-  border: 1px solid #5E89ED;
+  border: 1px solid #ca0470;
   border-radius: 5px;
 }
 
@@ -76,7 +73,6 @@
 
 .community-item {
   list-style: none;
-  border: 1px solid #ddd;
   padding: 25px;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -84,7 +80,6 @@
 
 .community-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .community-item img {
@@ -93,12 +88,11 @@
   height: 400px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 5%;
 }
 
 .community-item p strong {
-  color: #5E89ED;
+  color: #ca0470;
   font-weight: bold;
 }
 
@@ -154,39 +148,38 @@
 
 .community-join-btn {
   display: inline-block;
-  background-color: #5E89ED;
+  background-color: #ca0470;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
-  border-radius: 6px;
   margin-top: 10px;
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .community-join-btn:hover {
-  background-color: #5E89ED;
+  background-color: #ca0470;
   transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
   .community-container {
-      margin: 20px;
+    margin: 20px;
   }
 
   .community-item {
-      width: 100%;
+    width: 100%;
   }
 
   .community-header {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .community-join-btn {
-      padding: 10px 18px;
+    padding: 10px 18px;
   }
 
   .community-item img {
-      height: 300px;
+    height: 300px;
   }
 }

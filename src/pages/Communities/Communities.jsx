@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import communityData from '../../data/communities.json';
-import Navbar from '../../components/Navbar/Navbar';
-import MainFooter from '../../components/MainFooter/MainFooter';
-import './Communities.css';
+import React, { useEffect, useState } from "react";
+import communityData from "../../data/communities.json";
+import Navbar from "../../components/Navbar/Navbar";
+import MainFooter from "../../components/MainFooter/MainFooter";
+import "./Communities.css";
 
 const Communities = () => {
   const [communities, setCommunities] = useState([]);
@@ -25,17 +25,20 @@ const Communities = () => {
               {communities.map((community, index) => (
                 <li key={index} className="community-item">
                   <img src={community.img} alt={`Image of ${community.name}`} />
-                  <h2 className='community-name'>{community.name}</h2>
-                  <p className='community-description'>{community.description}</p>
-                  <p><strong>Category:</strong> 
-                  {community.category.map((cat, index) => (
-                    <span key={index}>{cat}</span>
-                  ))}
-                </p>
-                  <p className='community-location'>
+                  <h2 className="community-name">{community.name}</h2>
+                  <p className="community-description">
+                    {community.description}
+                  </p>
+                  <p>
+                    <strong>Category:</strong>
+                    {community.category.map((cat, index) => (
+                      <span key={index}>{cat}</span>
+                    ))}
+                  </p>
+                  <p className="community-location">
                     <strong>Location:</strong> {community.location}
                   </p>
-                  <p className='community-role'>
+                  <p className="community-role">
                     <strong>Role:</strong> {community.role}
                   </p>
                   {community.joinLink && (
@@ -45,8 +48,8 @@ const Communities = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-              {community.cta}
-              </a>
+                      {community.cta}
+                    </a>
                   )}
                 </li>
               ))}

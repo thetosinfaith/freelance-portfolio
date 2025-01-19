@@ -32,7 +32,8 @@ const Developer = () => {
     <>
       <Navbar />
 
-      <h1 className="developer-projects-title">./Websites.</h1>
+      <h1 className="developer-projects-title">./Websites
+      .</h1>
       <div className="developer-content">
         <p>Projects I’m Proud Of</p>
         <span className="arrow-icon" onClick={() => navigate("/portfolio/developer")}>→</span>

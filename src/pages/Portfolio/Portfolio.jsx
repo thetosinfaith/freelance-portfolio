@@ -31,7 +31,8 @@ const Portfolio = () => {
           data-aos="fade-right" 
         >
           <div className="portfolio-content">
-            <h2>I build websites</h2>
+            <h2>I build websites
+            </h2>
             <p>
               I build webapps using the best tools for the job, but React is my go-to framework.
             </p>
@@ -50,7 +51,8 @@ const Portfolio = () => {
           data-aos="fade-left" 
         >
           <div className="portfolio-content">
-            <h2>I design, sometimes</h2>
+            <h2>I design websites
+            </h2>
             <p>
               I might not be the typical designer spending hours on Illustrator, but I design.
             </p>

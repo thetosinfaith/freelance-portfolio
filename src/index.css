@@ -1,22 +1,22 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    background-color: white;
-    color: black;
-    font-family: "Outfit", sans-serif;
+body {
+  height: 100vh;
+  background-color: white;
+  color: black;
+  font-family: "Outfit", sans-serif;
 }
 
 :root {
---accent_colour: #5e89ed;
---brand_black: #040202;
---brand_white: #fefefe;
-background-image: url(./images/Light_background.svg);
---card_black: #1a1a1a;
---card_stroke: #ffffff;
---othercolor: #CCF381;
+  --accent_colour: #ca0470;
+  --brand_black: #040202;
+  --brand_white: #fefefe;
+  background-image: url(./images/Light_background.svg);
+  --card_black: #1a1a1a;
+  --card_stroke: #ffffff;
+  --othercolor: #ccf381;
 }

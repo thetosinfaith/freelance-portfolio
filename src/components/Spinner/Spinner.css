@@ -1,0 +1,32 @@
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .loading-spinner {
+    padding-left: 150%;
+  }
+}
+
+.zoom-in-out {
+  width: 80px;
+  height: 50px;
+  animation: zoomAnimation 2s infinite alternate;
+  margin: auto;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

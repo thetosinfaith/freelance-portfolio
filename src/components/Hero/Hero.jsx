@@ -1,58 +1,102 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import './Hero.css';
-import HeroImage from '../../assets/idee.jpg';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./Hero.css";
+import HeroImage from "../../assets/oo.png";
+import { BsArrowUpRight } from "react-icons/bs";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
-      once: true, 
+      duration: 1000,
+      once: true,
     });
   }, []);
 
   return (
     <div className="hero-container">
       <div className="hero" data-aos="fade-up">
-        <img 
-          src={HeroImage} 
-          alt="Profile Placeholder" 
-          className="hero-image" 
-          data-aos="zoom-in"
-        />
         <div className="content" data-aos="fade-in" data-aos-delay="200">
-          <h6 className="greeting">Hello, I'm Tosin Faith O.</h6>
-          <h1 className="main_head">
-            <span className="highlight">Frontend Developer</span> <br />
-          </h1>
+          <h6 className="greeting">
+            <span className="icon-text-container">
+              <DotLottieReact
+                src="https://lottie.host/2ab52245-9d34-4d05-ab47-9070a9efa578/BG0acctWgL.lottie"
+                loop
+                autoplay
+                style={{ width: "30px", height: "30px" }}
+              />
+              Africa's Most Celebrated Woman in Tech
+            </span>
+          </h6>
+          <span className="highlight">Hello! I’m Tosin Faith.</span> <br />
           <h6 className="subtitle">
-          I build frontend applications using HTML, CSS, and JavaScript, focusing on performance and responsiveness. Sometimes, I design user interfaces, and rarely, I handle backend tasks. My goal is to create fast, user-friendly applications for a smooth experience.
+            I have designed and built over 10+ websites for top brands,
+            celebrities, and global superstars. I’ve worked with various
+            industries, including software companies, and ecommerce brands. Need
+            pictures or my bio for a feature or speaking event?
+            <a
+              href="https://wa.me/message/5B4GQJQK3OZLH1"
+              className="styled-link"
+            >
+              {" "}
+              Click here.
+            </a>
           </h6>
           <div className="social-icons">
-            <a href="https://wa.me/+2348123539192" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://wa.me/+2348123539192"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-whatsapp"></i>
             </a>
-            <a href="https://facebook.com/thetosinfaith" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://facebook.com/thetosinfaith"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://instagram.com/thetosinfaith" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://instagram.com/thetosinfaith"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://github.com/thetosinfaith" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/thetosinfaith"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github"></i>
             </a>
-            <a href="mailto:tosinfaith.contact@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:tosinfaith.contact@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fas fa-envelope"></i>
             </a>
-            <a href="https://linktr.ee/thetosinfaith" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://linktr.ee/thetosinfaith"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fas fa-link"></i>
             </a>
           </div>
-          <a href="https://wa.me/+2348123539192" className="cta" target="_blank" rel="noopener noreferrer">
-            <button className="hero_button">Let’s chat</button>
+          <a href="https://wa.me/+2348123539192" className="hero_button">
+            Send a Message <BsArrowUpRight className="icon-bold" />
           </a>
         </div>
+        <img
+          src={HeroImage}
+          alt="Profile Placeholder"
+          className="hero-image"
+          data-aos="zoom-in"
+        />
       </div>
     </div>
   );

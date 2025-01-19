@@ -1,0 +1,137 @@
+.brands-container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(60px);
+}
+
+.brands-title {
+  color: #333;
+  font-size: 24px;
+  margin-left: 10px;
+  font-family: "BlueteaFont", sans-serif;
+  top: 0;
+  z-index: 10;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.brands-grid-wrapper {
+  display: flex;
+  width: 100%;
+  animation: scroll-left 20s linear infinite;
+  will-change: transform;
+}
+
+.brands-grid {
+  display: flex;
+  gap: 10px;
+}
+
+.brand-card {
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-logo {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+  transition: width 0.3s, height 0.3s;
+}
+
+.special-logo .brand-logo {
+  width: 170px;
+  height: 120px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .brands-container {
+    width: 80%;
+    margin-top: 10%;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transform: translateY(0);
+    position: relative;
+  }
+
+  .brands-title {
+    font-size: 18px;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .brands-grid-wrapper {
+    display: flex;
+    width: 100%;
+    animation: scroll-left 5s linear infinite;
+    will-change: transform;
+    margin-top: 10%;
+  }
+
+  .brands-grid {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+  }
+
+  .brand-card {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .brand-logo {
+    width: 120px;
+    height: 100px;
+    object-fit: contain;
+    transition: width 0.3s, height 0.3s;
+  }
+
+  .special-logo .brand-logo {
+    width: 130px;
+    height: 100px;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
