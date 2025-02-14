@@ -6,7 +6,6 @@ import Footer from "../../components/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MoreInfo from "../../components/MoreInfo/MoreInfo";
-import Brands from "../../components/Brands/Brands";
 import Stack from "../../components/Stack/Stack";
 
 const About = () => {

@@ -43,7 +43,7 @@ const Navbar = () => {
                   rel="noopener noreferrer"
                   className="cta-button"
                 >
-                  Press Kit <TbFileDownload />
+                  Press & Media Kits <TbFileDownload />
                 </a>
               </div>
             </li>

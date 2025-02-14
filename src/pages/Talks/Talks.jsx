@@ -1,13 +1,12 @@
-import React, { useEffect } from "react"; // Import useEffect correctly
+import React, { useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Events from "../../data/speaking.json"; // Ensure this JSON structure is correct
+import Events from "../../data/speaking.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Talks.css";
 
 const Talks = () => {
-  // Initialize AOS for animations
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -44,15 +43,16 @@ const Talks = () => {
       </div>
 
       <div className="speaking-grid">
-        {Events.event && (
-          <div className="speaking-item">
-            <img src={Events.event.image} alt="" />
-            <h3>{Events.event.name}</h3>
+        {Events.events?.map((event, index) => (
+          <div className="speaking-item" key={index}>
+            <img src={event.image} alt={event.name} />
+            <h3>{event.name}</h3>
+            <p>{event.description}</p>
             <button className="speaking-button">
-              <a href="#">{Events.event.cta}</a>
+              <a href="#">{event.cta}</a>
             </button>
           </div>
-        )}
+        ))}
       </div>
 
       <Footer />

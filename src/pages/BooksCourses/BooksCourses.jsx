@@ -1,24 +1,21 @@
-import Navbar from '../../components/Navbar/Navbar';
-import MainFooter from '../../components/MainFooter/MainFooter';
-import './BooksCourses'; 
+import Navbar from "../../components/Navbar/Navbar";
+import MainFooter from "../../components/MainFooter/MainFooter";
+import "./BooksCourses.css";
 
 const BooksCourses = () => {
-
-
   return (
     <>
       <Navbar />
-      <div className="selar-shop-container">
-        <h1>Selar Shop</h1>
-        <p>Explore products from the seller on Selar</p>
+      <div className="store-container">
+        <h1>Books and Courses</h1>
 
-        <div className="selar-embed">
+        <div className="store-embed">
           <iframe
-            src="https://selar.co/m/thetosinfaith"
-            title="Selar Seller Page"
+            src="https://mainstack.store/thetosinfaith"
+            title="Mainstack Store"
             width="100%"
             height="600px"
-            style={{ border: 'none' }}
+            style={{ border: "none" }}
           />
         </div>
       </div>

@@ -31,9 +31,8 @@ const Hero = () => {
           </h6>
           <span className="highlight">Hello! I’m Tosin Faith.</span> <br />
           <h6 className="subtitle">
-            I have designed and built over 10+ websites for top brands,
-            celebrities, and global superstars. I’ve worked with various
-            industries, including software companies, and ecommerce brands. Need
+            I have designed and built over 10+ websites for top brands, and global superstars. I’ve worked with various
+            software companies, and ecommerce brands. Need
             pictures or my bio for a feature or speaking event?
             <a
               href="https://wa.me/message/5B4GQJQK3OZLH1"
