@@ -13,6 +13,8 @@ import Awards from "./pages/Awards/Awards";
 import Blog from "./pages/Blog/Blog";
 import Extras from "./components/Extras/Extras";
 import Communities from "./pages/Communities/Communities";
+import { Analytics } from "@vercel/analytics/react"; 
+
 
 const App = () => {
   return (
@@ -35,9 +37,9 @@ const App = () => {
         <Route path="/speaking" element={<Talks />} />
         <Route path="/certificates" element={<Certifications />} />
         <Route path="/awards" element={<Awards />} />
-
-        <Route path="*" element={<div>Page not found</div>} />
+        
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 };
