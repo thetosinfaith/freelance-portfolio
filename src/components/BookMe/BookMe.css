@@ -25,12 +25,12 @@
 
 @media (max-width: 768px) { 
     .booking-container {
-      padding: 10px;
+      padding: 30px;
       margin-top: -0px;
     }
 
     .booking-container iframe {
-      height: 400px;
+      height: 700px;
     }
 
     h1 {

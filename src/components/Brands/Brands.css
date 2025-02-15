@@ -1,6 +1,6 @@
 .brands-container {
   text-align: center;
-  width: 70%;
+  width: 60%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@
   color: #333;
   font-size: 24px;
   margin-left: 10px;
-  font-family: "BlueteaFont", sans-serif;
+  font-family: "Bai Jamjuree", serif;  
   top: 0;
   z-index: 10;
   white-space: nowrap;
@@ -23,6 +23,7 @@
   text-align: center;
   margin-top: 10px;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .brands-grid-wrapper {
@@ -91,6 +92,8 @@
     top: 0;
     left: 0;
     z-index: 10;
+    margin-bottom: 10%;
+
   }
 
   .brands-grid-wrapper {
@@ -99,6 +102,8 @@
     animation: scroll-left 5s linear infinite;
     will-change: transform;
     margin-top: 10%;
+    
+
   }
 
   .brands-grid {

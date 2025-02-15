@@ -3,6 +3,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import MainFooter from "../../components/MainFooter/MainFooter";
 import Spinner from "../../components/Spinner/Spinner";
 import "./Blog.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -10,6 +13,13 @@ const Blog = () => {
   const [loadingTimeout, setLoadingTimeout] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+    });
+
     const fetchBlogPosts = async () => {
       try {
         const response = await fetch(

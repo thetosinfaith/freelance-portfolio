@@ -42,7 +42,7 @@ const About = () => {
             <p>
               {" "}
               I have worn a lot of hats. And considering the size of my head, I
-              think they are a little too many. Right now, I'm a web developer
+              think they are a little too many. Right now, I'm a web dev
               completely sold out to designing and building professional,
               beautiful websites you'll love.
             </p>
