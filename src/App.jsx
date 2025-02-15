@@ -5,7 +5,6 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import Developer from "./pages/Portfolio/Developer/Developer";
 import Designer from "./pages/Portfolio/Designer/Designer";
 import CardLayout from "./layout/CardLayout/CardLayout";
-import Features from "./pages//Features/Features";
 import BooksCourses from "./pages/BooksCourses/BooksCourses";
 import Talks from "./pages/Talks/Talks";
 import Certifications from "./pages/Certifications/Certifications";
@@ -14,6 +13,7 @@ import Blog from "./pages/Blog/Blog";
 import Extras from "./components/Extras/Extras";
 import Communities from "./pages/Communities/Communities";
 import { Analytics } from "@vercel/analytics/react"; 
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 const App = () => {
@@ -37,9 +37,10 @@ const App = () => {
         <Route path="/speaking" element={<Talks />} />
         <Route path="/certificates" element={<Certifications />} />
         <Route path="/awards" element={<Awards />} />
-        
+
       </Routes>
       <Analytics />
+      <SpeedInsights />
     </BrowserRouter>
   );
 };
