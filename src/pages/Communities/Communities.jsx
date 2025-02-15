@@ -9,8 +9,16 @@ const Communities = () => {
 
   useEffect(() => {
     setCommunities(communityData);
-  }, []);
 
+    window.scrollTo(0, 0);
+  
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+
+  }, []);
+  
   return (
     <>
       <Navbar />

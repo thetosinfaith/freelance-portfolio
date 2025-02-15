@@ -4,13 +4,13 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import "./Resources.css";
 import Communities from "../../assets/community.jpg";
-import Talks from "../../assets/wp.png";
+import Talks from "../../assets/2.png";
 import Code from "../../assets/check.jpg";
 import Books from "../../assets/bk.png";
 import Awards from "../../assets/awards.jpg";
-import Podcast from "../../assets/pp.png";
-import Features from "../../assets/ml.png";
-import Lead from "../../assets/bg.png";
+import Podcast from "../../assets/7.png";
+import Features from "../../assets/3.png";
+import Lead from "../../assets/6.png";
 
 const Resources = () => {
   useEffect(() => {
@@ -71,19 +71,6 @@ const Resources = () => {
           <li
             className="resources-item"
             data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <img src={Features} alt="Awards" className="resources-image" />
-            <Link to="/awards" className="resources-link">
-              Features
-              <p>
-                Where I’ve Been Featured <br />→
-              </p>
-            </Link>
-          </li>
-          <li
-            className="resources-item"
-            data-aos="fade-up"
             data-aos-delay="100"
           >
             <img
@@ -91,10 +78,23 @@ const Resources = () => {
               alt="Books and Courses"
               className="resources-image"
             />
-            <Link to="/books-courses" className="resources-link">
+            <Link to="/store" className="resources-link">
               Books and Courses
               <p>
                 Learn Something New <br />→
+              </p>
+            </Link>
+          </li>
+          <li
+            className="resources-item"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <img src={Features} alt="Awards" className="resources-image" />
+            <Link to="/awards" className="resources-link">
+              Features
+              <p>
+                Where I’ve Been Featured <br />→
               </p>
             </Link>
           </li>

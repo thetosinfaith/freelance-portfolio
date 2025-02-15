@@ -29,11 +29,11 @@ const Hero = () => {
               Africa's Most Celebrated Woman in Tech
             </span>
           </h6>
-          <span className="highlight">Hello! I’m Tosin Faith.</span> <br />
+          <span className="highlight">👋🏽 Hi there, I am Tosin</span> <br />
           <h6 className="subtitle">
             I have designed and built over 10+ websites for top brands, and global superstars. I’ve worked with various
-            software companies, and ecommerce brands. Need
-            pictures or my bio for a feature or speaking event?
+            software companies. Need
+            pictures or my bio for an event or speaking feature?
             <a
               href="https://wa.me/message/5B4GQJQK3OZLH1"
               className="styled-link"

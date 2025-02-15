@@ -1,6 +1,6 @@
 .speaking-upper {
-  text-align: center;
   padding: 60px 20px;
+  margin-left: 16%;
 }
 
 .speaking-intro {
@@ -19,6 +19,7 @@
   max-width: 1200px;
   padding: 20px;
   margin-top: 2%;
+  padding-left: 10%;
 }
 
 .speaking-text {
@@ -28,7 +29,7 @@
   max-width: 1000px;
   padding: 20px;
   margin-bottom: 50px;
-  line-height: 1.8;
+  line-height: 2.0;
 }
 
 .speaking-text h1 {
@@ -124,9 +125,10 @@
 }
 
 .speaking-item p {
-  font-size: 20px;
   color: #555;
   text-align: left;
+  line-height: 1.8;
+
 }
 
 @media (max-width: 768px) {
@@ -151,13 +153,16 @@
   }
 
   .speaking-button {
-    margin-left: 5%; 
     margin-right: 5%;
   }
 
   .speaking-item h3 {
     text-align: left;
-    padding-left: 5%;
     line-height: 1.7;
   }
+
+  .speaking-item p{
+    text-align: left;
+  }
+
 }

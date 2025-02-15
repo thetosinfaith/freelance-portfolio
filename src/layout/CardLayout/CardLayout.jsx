@@ -6,25 +6,25 @@ const CardLayout = () => {
     <section className="card_section">
       <div className="card_wrapper">
         <Card
-          title="Introducing Tosin"
+          title="Personal profile"
           to="/about"
-          emoji="👋🏼"
+          emoji="🧢"
           pillText="Let’s Begin!"
         />
         <Card
-          title="Website Samples"
+          title="Featured works"
           to="/portfolio"
-          emoji="📁"
+          emoji="💼"
           pillText="See My Best"
         />
         <Card
-          title="Journal of an Intern"
+          title="Story journal"
           to="/blog"
           emoji="📝"
           pillText="What’s New?"
         />
         <Card
-          title="Extra Highlights"
+          title="More pages"
           to="/resources"
           emoji="💫"
           pillText="More Highlights"

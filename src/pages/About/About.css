@@ -133,15 +133,16 @@
     height: auto;
   }
 
-  .upper-about {
-    margin-bottom: 30px;
-  }
 
   .about-content {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
     height: auto;
+  }
+
+  .sub-title{
+    margin-top: 10%;
   }
 
   .about-image img {

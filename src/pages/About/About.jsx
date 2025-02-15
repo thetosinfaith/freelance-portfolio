@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import MoreInfo from "../../components/MoreInfo/MoreInfo";
 import Stack from "../../components/Stack/Stack";
+import BookMe from "../../components/BookMe/BookMe";
 
 const About = () => {
   useEffect(() => {
@@ -21,10 +22,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="upper-about">
-        <p className="intro-text">Introduction</p>
-        <h1 className="main-title">About Me</h1>
-      </div>
+    
 
       <div className="about-container">
         <div className="about-content">
@@ -90,10 +88,12 @@ const About = () => {
               <a href="#">Work With Me</a>
             </p>
             <MoreInfo />
+            
           </div>
         </div>
       </div>
       <Stack />
+      <BookMe/>
       <Footer />
     </>
   );

@@ -26,20 +26,20 @@
 }
 
 .hero-container {
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: auto;
-  background-color: #fefcf7;
+  margin-top: 20px;
 }
 
 .hero {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
-  gap: 100px;
 }
 
 .hero-container img {
@@ -65,7 +65,7 @@
   font-size: 20px;
   margin: 15px 0;
   font-weight: normal;
-  max-width: 550px;
+  max-width: 500px;
   line-height: 2.1;
   margin-top: 20px;
 }
@@ -73,9 +73,8 @@
 .highlight {
   color: var(--accent_colour);
   font-weight: bold;
-  font-size: 52px;
+  font-size: 55px;
   margin-bottom: 10px;
-  font-family: "BlueteaFont", sans-serif;
   display: inline-block;
 }
 
@@ -261,6 +260,7 @@
     margin-top: 20px;
     width: 100%;
     font-size: 18px;
+    padding-right: 5px;
 
 
   }

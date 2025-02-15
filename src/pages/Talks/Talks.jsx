@@ -21,7 +21,7 @@ const Talks = () => {
       <Navbar />
       <div className="speaking-upper">
         <h1 className="speaking-main-title">Speaking →</h1>
-        <p className="speaking-intro">I always have so much to share...</p>
+        <p className="speaking-intro"><i>I always have so much to share →</i></p>
       </div>
 
       <div className="speaking-text" data-aos="fade-up">
