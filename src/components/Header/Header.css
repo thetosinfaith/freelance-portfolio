@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Muli, ui-sans-serif, Satoshi, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+  
+  .header-container {
+    height: 15vh;
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #F5BE0B;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; 
+  }
+  
+  .active-link {
+    color: #ED3237;
+  }
+  
+  .reg-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .reg-buttons .login {
+    background-color: transparent;
+    border: 1px solid white; 
+  }
+  
+  .login:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .signup {
+    background-color: #ED3237;
+  }
+  
+  .reg-buttons button {
+    padding: 12.5px 25px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu {
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    height: 80vh; 
+    width: 250px; 
+    background-color: #ED3237;
+    color: white; 
+    border-radius: 0 0 0 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease; 
+    text-align: center;
+  }
+  
+  .hamburger-menu.active {
+    transform: translateX(0); 
+  }
+  
+  .hamburger-menu a,
+  .hamburger-menu button {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white; 
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .hamburger-menu .login {
+    background-color: transparent;
+    border: 1px solid white; 
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hamburger-menu .signup {
+    margin-top: -20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+  }
+  
+  .close-menu {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 1280px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      color: aliceblue;
+    }
+  
+    .header-container {
+      padding: 0 20px; 
+    }
+  
+    .logo img {
+      height: 60px;
+      width: auto;
+    }
+  
+    .reg-buttons button {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      height: 80vh;
+      width: 250px; 
+      padding: 20px;
+      transform: translateX(100%);
+    }
+  
+    .hamburger-menu.active {
+      transform: translateX(0);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-container {
+      padding: 0 10px; 
+    }
+  
+    .logo img {
+      height: 60px;
+      width: auto;
+    }
+  
+    .hamburger-menu {
+      width: 100px;
+    }
+  }
+  

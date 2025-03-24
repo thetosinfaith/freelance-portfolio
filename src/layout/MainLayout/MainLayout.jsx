@@ -4,13 +4,16 @@ import MainFooter from "../../components/MainFooter/MainFooter";
 import { Outlet } from "react-router-dom";
 import Contact from "../../components/Contact/Contact";
 import Brands from "../../components/Brands/Brands";
+import Marquee from "../../components/Marquee/Marquee";
+import Header from "../../components/Header/Header";
 
 const MainLayout = () => {
   return (
     <>
-      <div className="yy" style={{ backgroundColor: "#FEFCF7" }}>
-      <Navbar />
-      <Hero />
+<Marquee/>
+<div className='bg-wrapper'>
+<Navbar />
+<Hero />
       </div>
       <Brands />
       <Outlet />

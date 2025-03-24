@@ -1,101 +1,48 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import FK from "../../assets/pt.jpg";
 import "./Hero.css";
-import HeroImage from "../../assets/oo.png";
-import { BsArrowUpRight } from "react-icons/bs";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
-
   return (
-    <div className="hero-container">
-      <div className="hero" data-aos="fade-up">
-        <div className="content" data-aos="fade-in" data-aos-delay="200">
-          <h6 className="greeting">
-            <span className="icon-text-container">
-              <DotLottieReact
-                src="https://lottie.host/2ab52245-9d34-4d05-ab47-9070a9efa578/BG0acctWgL.lottie"
-                loop
-                autoplay
-                style={{ width: "30px", height: "30px" }}
-              />
-              Africa's Most Celebrated Woman in Tech
-            </span>
-          </h6>
-          <span className="highlight">👋🏽 Hi there, I am Tosin</span> <br />
-          <h6 className="subtitle">
-            I have designed and built over 10+ websites for top brands, and global superstars. I’ve worked with various
-            software companies. Need
-            pictures or my bio for an event or speaking feature?
-            <a
-              href="https://wa.me/message/5B4GQJQK3OZLH1"
-              className="styled-link"
-            >
-              {" "}
-              Click here.
-            </a>
-          </h6>
-          <div className="social-icons">
-            <a
-              href="https://wa.me/+2348123539192"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
-            <a
-              href="https://facebook.com/thetosinfaith"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              href="https://instagram.com/thetosinfaith"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://github.com/thetosinfaith"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="mailto:tosinfaith.contact@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-envelope"></i>
-            </a>
-            <a
-              href="https://linktr.ee/thetosinfaith"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-link"></i>
-            </a>
-          </div>
-          <a href="https://wa.me/+2348123539192" className="hero_button">
-            Send a Message <BsArrowUpRight className="icon-bold" />
-          </a>
+    <div className="meet-container">
+      <div className="meet-image-section">
+        <img src={FK} alt="Meet Real Desmond" className="meet-image" />
+      </div>
+
+      <div className="meet-text-section">
+        <h1 className="meet-title">Meet Real Desmond</h1>
+
+        <p className="meet-subtitle">
+          Hi, I’m Real Desmond, also known as <strong>Yellow Queen</strong>
+        </p>
+
+        <p className="meet-subtitle">
+          A Brand Identity Designer, Brand Strategist, and Brand Manager.
+        </p>
+
+        <p className="meet-subtitle">
+          I help business owners and professionals create powerful brand
+          identities that stand out, build trust, and attract opportunities. But
+          before I claimed the title of, Yellow Queen of Branding my journey took a few
+          surprising turns…
+        </p>
+
+        <p className="meet-subtitle">
+          In 2021, I was running an online thrift clothing business. And by
+          “running,” I mean figuring things out as I went. Sales were
+          inconsistent, and I quickly realized that if I wanted to succeed, I
+          needed better marketing.
+        </p>
+
+        <p className="meet-subtitle">
+          I wanted to create flyers to promote my business, but I had no design
+          skills. I had two choices: hire a designer or learn it myself. With no
+          budget to outsource, I went for...
+        </p>
+
+        <div className="button-container">
+          <button className="about-me-button">About Me</button>
         </div>
-        <img
-          src={HeroImage}
-          alt="Profile Placeholder"
-          className="hero-image"
-          data-aos="zoom-in"
-        />
       </div>
     </div>
   );

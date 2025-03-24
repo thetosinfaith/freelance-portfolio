@@ -1,0 +1,16 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #FCEEF5;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+  }
